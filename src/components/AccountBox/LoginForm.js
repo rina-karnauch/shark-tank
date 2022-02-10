@@ -1,5 +1,5 @@
 import React from 'react';
-import {BoxContainer, FormContainer, Input, MutedLink, SubmitButton} from './common'
+import {BoxContainer, FormContainer, Input, MutedLink, SubmitButton, BoldLink} from './common'
 
 export function LoginForm(props) {
     return (
@@ -7,9 +7,10 @@ export function LoginForm(props) {
             <FormContainer>
                 <Input type="email" placeholder="Email"/>
                 <Input type="password" placeholder="Password"/>
-                <MutedLink href="#">Forgot your password?</MutedLink>
-                <SubmitButton type="submit">Sign In</SubmitButton>
             </FormContainer>
+            <MutedLink href="#">Forgot your password?</MutedLink>
+            <SubmitButton type="submit">Log In</SubmitButton>
+            <MutedLink href="#">Don't have an account? <BoldLink href="#">Sign up</BoldLink></MutedLink>
         </BoxContainer>
     );
 }

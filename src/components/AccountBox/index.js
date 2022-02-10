@@ -1,6 +1,9 @@
-import React from "react";
-import styled, { css } from 'styled-components';
-import {LoginForm} from './LoginForm'
+import React, {useState, createContext, useEffect} from "react";
+import styled, {css} from 'styled-components';
+import {LoginForm} from './LoginForm';
+import {SignupForm} from './signupForm'
+import {AccountContext} from "./AccountContext";
+import {motion} from "framer-motion";
 
 const BoxContainer = styled.div`
   margin-bottom: 20px;
@@ -26,7 +29,7 @@ const TopContainer = styled.div`
   padding: 0 1.8em;
   padding-bottom: 5em;
 `;
-const BackDrop = styled.div`
+const BackDrop = styled(motion.div)`
   width: 160%;
   height: 550px;
   position: absolute;
@@ -71,19 +74,84 @@ const InnerContainer = styled.div`
   padding: 0 3em;
 `;
 
+const backdropVariants = {
+    expanded: {
+        width: "200%",
+        height: "105vh",
+        borderRadius: "50%",
+
+    },
+    collapsed: {
+        top: "-290px",
+        left: "-70px",
+        width: "160%",
+        height: "550px",
+        borderRadius: "50%",
+
+    }
+}
+
 export function AccountBox(props) {
+
+    const [isExpended, setExpended] = useState(false);
+    const [active, setActive] = useState("signin");
+
+    const expandingTransition = {
+        type: "spring",
+        duration: 1.8,
+        stiffness: 30,
+    }
+
+    const playExpandingAnimation = () => {
+        setExpended(true);
+        setTimeout(() => {
+            setExpended(false);
+        }, expandingTransition.duration * 1000 - 800);
+    };
+
+    const SwitchToSignUp = () => {
+        playExpandingAnimation();
+        setTimeout(() => {
+                setActive("signup")
+            }, 1000
+        );
+    };
+
+    const SwitchToSignIn = () => {
+        playExpandingAnimation();
+        setTimeout(() => {
+                setActive("signin")
+            }, 1000
+        );
+    };
+
+    const contextValue = {SwitchToSignUp, SwitchToSignIn};
+
     return (
-        <BoxContainer>
-            <TopContainer>
-                <BackDrop/>
-                <HeaderContainer>
-                    <HeaderText>Welcome Back</HeaderText>
-                    <SmallText> Please login to continue. </SmallText>
-                </HeaderContainer>
-            </TopContainer>
-            <InnerContainer>
-                <LoginForm/>
-            </InnerContainer>
-        </BoxContainer>
+        <AccountContext.Provider value={contextValue}>
+            <BoxContainer>
+                <TopContainer>
+                    <BackDrop initial={false} // no mount animation
+                              animate={isExpended ? "expanded" : "collapsed"}
+                              variants={backdropVariants}
+                              transition={expandingTransition}
+                    />
+                    <HeaderContainer>
+                        <HeaderText>Welcome Back</HeaderText>
+                    </HeaderContainer>
+                </TopContainer>
+                <InnerContainer>
+                    {
+                        active === "signin" &&
+                        <LoginForm/>
+                    }
+                    {
+                        active === "signup" &&
+                        <SignupForm/>
+                    }
+                </InnerContainer>
+            </BoxContainer>
+        </AccountContext.Provider>
+
     );
 }

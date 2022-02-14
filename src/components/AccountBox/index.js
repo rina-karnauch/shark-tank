@@ -1,9 +1,13 @@
-import React, {useState, createContext, useEffect} from "react";
-import styled, {css} from 'styled-components';
+import React, {useState} from "react";
+import styled from 'styled-components';
+import {Button} from '@mui/material';
+import './overlayButton.css';
 import {LoginForm} from './LoginForm';
 import {SignupForm} from './signupForm'
 import {AccountContext} from "./AccountContext";
 import {motion} from "framer-motion";
+import ModalUnstyled from '@mui/base/ModalUnstyled';
+
 
 const BoxContainer = styled.div`
   margin-bottom: 20px;
@@ -50,7 +54,7 @@ const HeaderContainer = styled.div`
   height: auto;
   display: flex;
   flex-direction: column;
-  margin-top:50px;
+  margin-top: 50px;
 `;
 
 const HeaderText = styled.h2`
@@ -77,24 +81,52 @@ const InnerContainer = styled.div`
 
 const backdropVariants = {
     expanded: {
-        width: "150%",
+        width: "160%",
         height: "200vh",
-        borderRadius: "50%",
+        borderRadius: "20%",
 
     },
     collapsed: {
         top: "-100px",
         left: "-70px",
-        width: "160%",
+        width: "180%",
         height: "300px",
         borderRadius: "50%",
     }
 }
 
+const StyledModal = styled(ModalUnstyled)`
+  position: fixed;
+  z-index: 1300;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+const Overlay = styled('div')`
+  z-index: -1;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-tap-highlight-color: transparent;
+`;
+
 export function AccountBox(props) {
 
     const [isExpended, setExpended] = useState(false);
     const [active, setActive] = useState("signin");
+
+    const [open, setOpen] = React.useState(false);
+    const handleOpenAccountModal = () => setOpen(true);
+    const handleCloseAccountModal = () => setOpen(false);
+
 
     const expandingTransition = {
         type: "spring",
@@ -128,30 +160,42 @@ export function AccountBox(props) {
     const contextValue = {SwitchToSignUp, SwitchToSignIn};
 
     return (
-        <AccountContext.Provider value={contextValue}>
-            <BoxContainer>
-                <TopContainer>
-                    <BackDrop initial={false} // no mount animation
-                              animate={isExpended ? "expanded" : "collapsed"}
-                              variants={backdropVariants}
-                              transition={expandingTransition}
-                    />
-                    <HeaderContainer>
-                        <HeaderText>Find your shark</HeaderText>
-                    </HeaderContainer>
-                </TopContainer>
-                <InnerContainer>
-                    {
-                        active === "signin" &&
-                        <LoginForm/>
-                    }
-                    {
-                        active === "signup" &&
-                        <SignupForm/>
-                    }
-                </InnerContainer>
-            </BoxContainer>
-        </AccountContext.Provider>
-
+        <React.Fragment>
+            <button type="button" className="button-8 side-buttons" onClick={handleOpenAccountModal}>
+                Sign in
+            </button>
+            <StyledModal
+                aria-labelledby="unstyled-modal-title"
+                aria-describedby="unstyled-modal-description"
+                open={open}
+                onClose={handleCloseAccountModal}
+                BackdropComponent={Overlay}
+            >
+                <AccountContext.Provider value={contextValue}>
+                    <BoxContainer>
+                        <TopContainer>
+                            <BackDrop initial={false} // no mount animation
+                                      animate={isExpended ? "expanded" : "collapsed"}
+                                      variants={backdropVariants}
+                                      transition={expandingTransition}
+                            />
+                            <HeaderContainer>
+                                <HeaderText>Find your shark</HeaderText>
+                            </HeaderContainer>
+                        </TopContainer>
+                        <InnerContainer>
+                            {
+                                active === "signin" &&
+                                <LoginForm/>
+                            }
+                            {
+                                active === "signup" &&
+                                <SignupForm/>
+                            }
+                        </InnerContainer>
+                    </BoxContainer>
+                </AccountContext.Provider>
+            </StyledModal>
+        </React.Fragment>
     );
 }

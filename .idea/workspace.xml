@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc1a6e47-6a42-4023-9a63-ee7dda6d835c" name="Default Changelist" comment="login and signup ui is ready">
+    <list default="true" id="bc1a6e47-6a42-4023-9a63-ee7dda6d835c" name="Default Changelist" comment="fixed position of inputs">
+      <change afterPath="$PROJECT_DIR$/src/components/AccountBox/overlayButton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AccountBox/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccountBox/LoginForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AccountBox/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccountBox/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AccountBox/signupForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccountBox/signupForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -33,6 +38,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/components/AccountBox/index.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="24s85rJ5bYvpVeLM4MniMw8JW6r" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,12 +51,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Shelf.Project.Settings" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -77,7 +86,7 @@
       <workItem from="1644407763200" duration="23000" />
       <workItem from="1644407788379" duration="19895000" />
       <workItem from="1644751775321" duration="1881000" />
-      <workItem from="1644833987738" duration="797000" />
+      <workItem from="1644833987738" duration="6287000" />
     </task>
     <task id="LOCAL-00001" summary="fixed eslint">
       <created>1644408172687</created>
@@ -107,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644522222060</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fixed position of inputs">
+      <created>1644834795263</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1644834795263</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +146,11 @@
     <MESSAGE value="added dummy sign up" />
     <MESSAGE value="changed some colors" />
     <MESSAGE value="login and signup ui is ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="login and signup ui is ready" />
+    <MESSAGE value="fixed position of inputs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed position of inputs" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

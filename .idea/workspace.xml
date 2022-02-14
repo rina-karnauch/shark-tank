@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc1a6e47-6a42-4023-9a63-ee7dda6d835c" name="Default Changelist" comment="fixed position of inputs">
-      <change afterPath="$PROJECT_DIR$/src/components/AccountBox/overlayButton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+    <list default="true" id="bc1a6e47-6a42-4023-9a63-ee7dda6d835c" name="Default Changelist" comment="fixed header">
+      <change afterPath="$PROJECT_DIR$/src/images/sharkTankTeethBlack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/sharkTankText.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/sharkTeethText.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AccountBox/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccountBox/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AccountBox/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccountBox/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AccountBox/overlayButton.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccountBox/overlayButton.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Content.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -63,6 +67,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
@@ -86,7 +91,7 @@
       <workItem from="1644407763200" duration="23000" />
       <workItem from="1644407788379" duration="19895000" />
       <workItem from="1644751775321" duration="1881000" />
-      <workItem from="1644833987738" duration="6287000" />
+      <workItem from="1644833987738" duration="13108000" />
     </task>
     <task id="LOCAL-00001" summary="fixed eslint">
       <created>1644408172687</created>
@@ -123,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644834795263</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fixed header">
+      <created>1644840468457</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1644840468457</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +159,20 @@
     <MESSAGE value="changed some colors" />
     <MESSAGE value="login and signup ui is ready" />
     <MESSAGE value="fixed position of inputs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed position of inputs" />
+    <MESSAGE value="fixed header" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed header" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/AccountBox/index.js</url>
+          <line>36</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

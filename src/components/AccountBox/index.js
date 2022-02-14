@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import styled from 'styled-components';
-import {Button} from '@mui/material';
 import './overlayButton.css';
 import {LoginForm} from './LoginForm';
 import {SignupForm} from './signupForm'
@@ -17,7 +16,7 @@ const BoxContainer = styled.div`
   height: 70vh;
   display: flex;
   flex-direction: column;
-  border-radius: 19px;
+  border-radius:0px;
   background-color: #ffffff;
   box-shadow: 0 0 2px rgba(15, 15, 15, 0.28);
   position: relative;
@@ -47,7 +46,8 @@ const BackDrop = styled(motion.div)`
   //#6e9cb4 20%,
   //#6e9cb4 100%);
   // #AE93C9FF
-  background-image: linear-gradient(to bottom left, #ff8265 50%, #ffda6b);
+  //background-image: linear-gradient(to bottom left, #6591ff 30%, #b2ff6f);
+  background-image: linear-gradient(to bottom right, #ff8265 20%, #ffda6b);
 `;
 
 const HeaderContainer = styled.div`

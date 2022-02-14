@@ -24,7 +24,7 @@ export function SignupForm(props) {
             <SubmitButton type="submit">Signup</SubmitButton>
             <MutedLink href="#">
                 Already have an account?
-                <BoldLink href="#" onClick={SwitchToSignIn}>
+                <BoldLink href="javascript:void(0);" onClick={SwitchToSignIn}>
                     Log In
                 </BoldLink>
             </MutedLink>

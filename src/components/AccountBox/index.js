@@ -22,7 +22,7 @@ const BoxContainer = styled.div`
 
 const TopContainer = styled.div`
   width: 100%;
-  height: 250px;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -31,12 +31,12 @@ const TopContainer = styled.div`
 `;
 const BackDrop = styled(motion.div)`
   width: 160%;
-  height: 550px;
+  height: 300px;
   position: absolute;
   display: flex;
   flex-direction: column;
   border-radius: 50%;
-  top: -290px;
+  top: -100px;
   left: -70px;
   //background: #6e9cb4;
   //background: linear-gradient(58deg,
@@ -50,6 +50,7 @@ const HeaderContainer = styled.div`
   height: auto;
   display: flex;
   flex-direction: column;
+  margin-top:50px;
 `;
 
 const HeaderText = styled.h2`
@@ -76,18 +77,17 @@ const InnerContainer = styled.div`
 
 const backdropVariants = {
     expanded: {
-        width: "200%",
-        height: "105vh",
+        width: "150%",
+        height: "200vh",
         borderRadius: "50%",
 
     },
     collapsed: {
-        top: "-290px",
+        top: "-100px",
         left: "-70px",
         width: "160%",
-        height: "550px",
+        height: "300px",
         borderRadius: "50%",
-
     }
 }
 
@@ -137,7 +137,7 @@ export function AccountBox(props) {
                               transition={expandingTransition}
                     />
                     <HeaderContainer>
-                        <HeaderText>Welcome Back</HeaderText>
+                        <HeaderText>Find your shark</HeaderText>
                     </HeaderContainer>
                 </TopContainer>
                 <InnerContainer>

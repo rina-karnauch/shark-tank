@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc1a6e47-6a42-4023-9a63-ee7dda6d835c" name="Default Changelist" comment="fixed header">
-      <change afterPath="$PROJECT_DIR$/src/images/sharkTankTeethBlack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/sharkTankText.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/sharkTeethText.png" afterDir="false" />
+    <list default="true" id="bc1a6e47-6a42-4023-9a63-ee7dda6d835c" name="Default Changelist" comment="again changed some colors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AccountBox/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccountBox/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AccountBox/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccountBox/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AccountBox/overlayButton.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccountBox/overlayButton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AccountBox/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccountBox/LoginForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AccountBox/signupForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccountBox/signupForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +83,13 @@
       <workItem from="1644407763200" duration="23000" />
       <workItem from="1644407788379" duration="19895000" />
       <workItem from="1644751775321" duration="1881000" />
-      <workItem from="1644833987738" duration="13108000" />
+      <workItem from="1644833987738" duration="14265000" />
+      <workItem from="1644916687671" duration="49000" />
+      <workItem from="1645812629308" duration="563000" />
+      <workItem from="1646140598331" duration="1928000" />
+      <workItem from="1646339646972" duration="575000" />
+      <workItem from="1647249688037" duration="1032000" />
+      <workItem from="1648146304213" duration="2735000" />
     </task>
     <task id="LOCAL-00001" summary="fixed eslint">
       <created>1644408172687</created>
@@ -135,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644840468457</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="again changed some colors">
+      <created>1644864564381</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1644864564381</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +165,8 @@
     <MESSAGE value="login and signup ui is ready" />
     <MESSAGE value="fixed position of inputs" />
     <MESSAGE value="fixed header" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed header" />
+    <MESSAGE value="again changed some colors" />
+    <option name="LAST_COMMIT_MESSAGE" value="again changed some colors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -168,8 +174,12 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/AccountBox/index.js</url>
           <line>36</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/AccountBox/index.js</url>
+          <line>57</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

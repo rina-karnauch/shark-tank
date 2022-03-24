@@ -10,9 +10,12 @@ function Content() {
             <Header/>
             <Container className='content-container'>
                 hello
+                {
+                    // replace with information about the system
+                }
             </Container>
         </React.Fragment>
-        //
+        // IGNORE THAT IM SAVING THIS FOR MYSELF
         // <Container className='content-container'
         //            style={{}}>
         //     <Header/>

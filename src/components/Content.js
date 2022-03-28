@@ -6,12 +6,18 @@ import Grid from '@mui/material/Grid';
 
 function Content() {
     return (
+        // present what is needed according to the url,
+        // meaning if the :
+        // url is \ then homepage
+        // url is \q then questionary page
+        // url is \c then we have the chat
         <React.Fragment>
             <Header/>
             <Container className='content-container'>
                 hello
                 {
                     // replace with information about the system
+
                 }
             </Container>
         </React.Fragment>

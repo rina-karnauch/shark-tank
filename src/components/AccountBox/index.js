@@ -47,7 +47,9 @@ const BackDrop = styled(motion.div)`
   //#6e9cb4 100%);
   // #AE93C9FF
   //background-image: linear-gradient(to bottom left, #6591ff 30%, #b2ff6f);
-  background-image: linear-gradient(to bottom right, #ff8265 20%, #ffda6b);
+  //background-image: linear-gradient(to bottom right, #ff8265 20%, #ffda6b);
+  // 0a77dd
+  background-image: linear-gradient(to bottom right, #0a77dd 10%, #a5cbea);
 `;
 
 const HeaderContainer = styled.div`

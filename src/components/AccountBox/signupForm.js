@@ -8,6 +8,7 @@ import {
     SubmitButton,
 } from "./common";
 import {AccountContext} from "./AccountContext";
+import db from './server';
 
 export function SignupForm(props) {
 
@@ -28,6 +29,12 @@ export function SignupForm(props) {
             // TODO list:
             // 1. check for password === passwordConfirmation
             // 2. check that email is not already used
+
+            db.collection("Accounts").add({
+                email: email,
+                name: name,
+                password: password
+            });
         }
         console.log("2");
     }
@@ -77,7 +84,7 @@ export function SignupForm(props) {
             <MutedLink href="#">
                 Already have an account?
                 <BoldLink href="javascript:void(0);" onClick={SwitchToSignIn}>
-                    Log In
+                    &#xA0;Log In
                 </BoldLink>
             </MutedLink>
         </BoxContainer>

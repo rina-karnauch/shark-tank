@@ -2,6 +2,7 @@ import React, {useContext, useState} from 'react';
 import {AccountContext} from "./AccountContext";
 import {BoxContainer, FormContainer, Input, MutedLink, SubmitButton, BoldLink} from './common'
 
+import db from "./server"
 
 export function LoginForm(props) {
 
@@ -60,7 +61,7 @@ export function LoginForm(props) {
             <MutedLink
                 href="#">Don't have an account?
                 <BoldLink href="javascript:void(0);" onClick={SwitchToSignUp}>
-                    Sign up
+                    &#xA0;Sign up
                 </BoldLink>
             </MutedLink>
         </BoxContainer>

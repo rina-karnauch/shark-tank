@@ -2,15 +2,10 @@ import './Content.css';
 import * as React from 'react';
 import {Container} from '@mui/material';
 import {Header} from './Header';
-import Grid from '@mui/material/Grid';
+import Footer from "./Footer";
 
-function Content() {
+function Home() {
     return (
-        // present what is needed according to the url,
-        // meaning if the :
-        // url is \ then homepage
-        // url is \q then questionary page
-        // url is \c then we have the chat
         <React.Fragment>
             <Header/>
             <Container className='content-container'>
@@ -20,6 +15,7 @@ function Content() {
 
                 }
             </Container>
+            <Footer/>
         </React.Fragment>
         // IGNORE THAT IM SAVING THIS FOR MYSELF
         // <Container className='content-container'
@@ -61,4 +57,4 @@ function Content() {
     );
 }
 
-export default Content;
+export default Home;

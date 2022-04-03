@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc1a6e47-6a42-4023-9a63-ee7dda6d835c" name="Default Changelist" comment="added some check up functions and state for login and signup form">
-      <change afterPath="$PROJECT_DIR$/src/components/Chat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Questionary.js" afterDir="false" />
+    <list default="true" id="bc1a6e47-6a42-4023-9a63-ee7dda6d835c" name="Default Changelist" comment="fixed routing and changed some structure of project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AccountBox/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccountBox/LoginForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AccountBox/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccountBox/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AccountBox/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccountBox/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AccountBox/overlayButton.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccountBox/overlayButton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AccountBox/signupForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccountBox/signupForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +38,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/components/AccountBox/index.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="24s85rJ5bYvpVeLM4MniMw8JW6r" />
   <component name="ProjectViewState">
@@ -98,7 +96,11 @@
       <workItem from="1647249688037" duration="1032000" />
       <workItem from="1648146304213" duration="6884000" />
       <workItem from="1648401876526" duration="683000" />
-      <workItem from="1648455434871" duration="1464000" />
+      <workItem from="1648455434871" duration="2621000" />
+      <workItem from="1648567887584" duration="1342000" />
+      <workItem from="1648969359018" duration="183000" />
+      <workItem from="1648969566621" duration="1486000" />
+      <workItem from="1648981806481" duration="2168000" />
     </task>
     <task id="LOCAL-00001" summary="fixed eslint">
       <created>1644408172687</created>
@@ -156,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648150023577</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="changed colors and added empty chat and questionary components, thought about some stuff bc im deep ef">
+      <created>1648457073635</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1648457073635</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +181,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixed eslint" />
@@ -183,7 +191,9 @@
     <MESSAGE value="fixed header" />
     <MESSAGE value="again changed some colors" />
     <MESSAGE value="added some check up functions and state for login and signup form" />
-    <option name="LAST_COMMIT_MESSAGE" value="added some check up functions and state for login and signup form" />
+    <MESSAGE value="changed colors and added empty chat and questionary components, thought about some stuff bc im deep ef" />
+    <MESSAGE value="fixed routing and changed some structure of project" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed routing and changed some structure of project" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,19 +1,18 @@
 import * as React from 'react';
-import Home from './Home.js';
-import './Page.css';
 import {Route, Routes} from "react-router-dom";
+import Home from './Home.js';
+import QComponent from './QComponent.js';
+import Chat from './Chat.js';
+import './Page.css';
 
-function cText(text) {
-    return <div>{text}</div>
-}
 
 function Page() {
     return (
         <React.Fragment>
             <Routes>
                 <Route path="/" element={<Home/>}/>
-                <Route path="/q" element={cText("questionary")}/>
-                <Route path="/c" element={cText("chat")}/>
+                <Route path="/q" element={<QComponent/>}/>
+                <Route path="/c" element={<Chat/>}/>
             </Routes>
 
         </React.Fragment>

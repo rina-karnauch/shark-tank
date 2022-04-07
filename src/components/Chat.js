@@ -13,7 +13,6 @@ import Grid from '@mui/material/Grid';
  */
 
 function Chat() {
-
     // fetch('http://132.64.33.7:4000/conversations/user1')
     //     .then(response => response.json())
     //     .then(data => console.log(data));

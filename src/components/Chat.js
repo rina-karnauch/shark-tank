@@ -1,4 +1,5 @@
 import * as React from 'react';
+import MyProfileSearchBar from './LeftSideChat/MyProfileSearchBar'
 import Grid from '@mui/material/Grid';
 
 // TODO:
@@ -10,6 +11,7 @@ import Grid from '@mui/material/Grid';
     3.2 name
     3.3 last message
  */
+
 function Chat() {
     return (
         <Grid container spacing={2}
@@ -21,8 +23,10 @@ function Chat() {
                       height: "110vh",
 
                   }}>
-                hello
+                <MyProfileSearchBar fullname={"MyName"} profilePicture={"PATH"}/>
+
             </Grid>
+
             <Grid item xs={9}>
                 hello2
             </Grid>

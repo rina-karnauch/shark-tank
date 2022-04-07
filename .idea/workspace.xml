@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc1a6e47-6a42-4023-9a63-ee7dda6d835c" name="Default Changelist" comment="fixed routing and changed some structure of project">
+    <list default="true" id="bc1a6e47-6a42-4023-9a63-ee7dda6d835c" name="Default Changelist" comment="add PersonChatBox.js">
+      <change afterPath="$PROJECT_DIR$/src/components/LeftSideChat/MyProfileSearchBar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LeftSideChat/MyProfileSearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftSideChat/MyProfileSearchBar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -103,7 +106,7 @@
       <workItem from="1648969359018" duration="183000" />
       <workItem from="1648969566621" duration="1486000" />
       <workItem from="1648981806481" duration="2168000" />
-      <workItem from="1649317922658" duration="2651000" />
+      <workItem from="1649317922658" duration="9644000" />
     </task>
     <task id="LOCAL-00001" summary="fixed eslint">
       <created>1644408172687</created>
@@ -168,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648457073635</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add PersonChatBox.js">
+      <created>1649322290368</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1649322290368</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +207,8 @@
     <MESSAGE value="added some check up functions and state for login and signup form" />
     <MESSAGE value="changed colors and added empty chat and questionary components, thought about some stuff bc im deep ef" />
     <MESSAGE value="fixed routing and changed some structure of project" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed routing and changed some structure of project" />
+    <MESSAGE value="add PersonChatBox.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="add PersonChatBox.js" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

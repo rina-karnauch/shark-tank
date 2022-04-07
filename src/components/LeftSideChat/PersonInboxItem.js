@@ -15,7 +15,8 @@ function PersonInboxItem(props) {
                     <Avatar alt="Profile Picture" src={props.person} />
                 </ListItemAvatar>
                 <ListItemText
-                    primary={"Name" + " " + " #Course#"}
+                    primary={props.primary}
+                    //{"Name" + " " + " #Course"}
                     secondary={props.secondary}
                 />
             </ListItem>

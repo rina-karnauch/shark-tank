@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc1a6e47-6a42-4023-9a63-ee7dda6d835c" name="Default Changelist" comment="add PersonChatBox.js">
-      <change afterPath="$PROJECT_DIR$/src/components/LeftSideChat/PersonInboxItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LeftSideChat/SearchInput.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chat.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LeftSideChat/Inbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftSideChat/Inbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LeftSideChat/PersonInboxItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftSideChat/PersonInboxItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LeftSideChat/SearchInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftSideChat/SearchInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mock-data.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +107,8 @@
       <workItem from="1648969359018" duration="183000" />
       <workItem from="1648969566621" duration="1486000" />
       <workItem from="1648981806481" duration="2168000" />
-      <workItem from="1649317922658" duration="18862000" />
+      <workItem from="1649317922658" duration="35740000" />
+      <workItem from="1649368478813" duration="3176000" />
     </task>
     <task id="LOCAL-00001" summary="fixed eslint">
       <created>1644408172687</created>

@@ -1,6 +1,15 @@
 import * as React from 'react';
 import Grid from '@mui/material/Grid';
 
+// TODO:
+/*
+    1 . MyProfile bar with search button
+    2.  Back to Matches pages
+    3.  message box:
+    3.1 picture
+    3.2 name
+    3.3 last message
+ */
 function Chat() {
     return (
         <Grid container spacing={2}

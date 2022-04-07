@@ -1,5 +1,5 @@
 import * as React from 'react';
-import MyProfileSearchBar from './LeftSideChat/MyProfileSearchBar'
+import Inbox from './LeftSideChat/Inbox'
 import Grid from '@mui/material/Grid';
 
 // TODO:
@@ -23,7 +23,7 @@ function Chat() {
                       height: "110vh",
 
                   }}>
-                <MyProfileSearchBar fullname={"MyName"} profilePicture={"PATH"}/>
+                <Inbox fullname={"MyName"} profilePicture={"PATH"}/>
 
             </Grid>
 

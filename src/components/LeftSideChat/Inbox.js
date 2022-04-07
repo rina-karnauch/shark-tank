@@ -72,8 +72,9 @@ const messages = [
     }
 ];
 
+// Plus Button
 const StyledFab = styled(Fab)({
-    backgroundColor: "red",
+    backgroundColor: "25aff3",
     position: "absolute",
     zIndex: 1,
     top: 30,
@@ -81,23 +82,29 @@ const StyledFab = styled(Fab)({
     right: 0,
     margin: "0 auto"
 });
-function MyProfileSearchBar(props) {
+
+
+function Inbox(props) {
     return (
         <React.Fragment>
             <CssBaseline />
-            <AppBar position="fixed" color="primary" sx={{}}>
+            <AppBar position="fixed" color="primary" sx={{width:"auto",marginLeft:"50px"}}>
                 {/* above part */}
                 <Toolbar>
                     <IconButton color="inherit" aria-label="open drawer">
                         {/* Photo*/}
                     </IconButton>
+
                     <StyledFab color="secondary" aria-label="add">
                         <AddIcon />
                     </StyledFab>
+
                     <Box sx={{ flexGrow: 2}} />
+
                     <IconButton color="inherit">
                         <SearchIcon />
                     </IconButton>
+
                     <IconButton color="inherit">
                         <MoreIcon />
                     </IconButton>
@@ -106,7 +113,6 @@ function MyProfileSearchBar(props) {
 
             <Paper square sx={{ pb: "30px" }}>
                 {/*title*/}
-
                 <Typography
                     variant="h5"
                     gutterBottom
@@ -136,7 +142,7 @@ function MyProfileSearchBar(props) {
     );
 }
 
-export default MyProfileSearchBar;
+export default Inbox;
 
 // import * as React from 'react';
 // // import './MyProfileSearchBar.css'

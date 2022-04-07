@@ -2,9 +2,7 @@ import React, {useContext, useState} from 'react';
 import {AccountContext} from "./AccountContext";
 import {BoxContainer, FormContainer, Input, MutedLink, SubmitButton, BoldLink} from './common'
 
-import db from "./server"
-
-export function LoginForm(props) {
+export function LoginForm() {
 
     const {SwitchToSignUp} = useContext(AccountContext);
     const [email, setEmail] = useState("");
@@ -38,7 +36,7 @@ export function LoginForm(props) {
                 <Input type="password"
                        placeholder="Password"
                        value={password}
-                       onChange={(e) => setEmail(e.target.value)}
+                       onChange={(e) => setPassword(e.target.value)}
                        required
                 />
             </FormContainer>

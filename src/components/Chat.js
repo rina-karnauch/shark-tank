@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Grid from '@mui/material/Grid';
-
 function Chat() {
+
     return (
         <Grid container spacing={2}
               style={{}}>
@@ -10,7 +10,6 @@ function Chat() {
                   style={{
                       borderRight: "1px solid black",
                       height: "110vh",
-
                   }}>
                 hello
             </Grid>

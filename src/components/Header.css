@@ -1,6 +1,7 @@
 
 .header{
     padding:10px;
+    z-index:2;
     background-color: white;
     border-bottom: 1px solid #e8e8e8;
 }

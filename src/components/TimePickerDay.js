@@ -37,6 +37,8 @@ export default function TimePickerDay(props) {
             <Paper component={Stack} direction="column" justifyContent="center">
 
                 <ToggleButton color="primary" value="0" selected={selected} onChange={() => {setSelected(!selected);}}></ToggleButton>
+                <ToggleButton color="primary" value="0" selected={selected1} onChange={() => {setSelected1(!selected1);}}></ToggleButton>
+
                 <ToggleButton color="primary" value="0" selected={selected2} onChange={() => {setSelected2(!selected2);}}></ToggleButton>
                 <ToggleButton color="primary" value="0" selected={selected3} onChange={() => {setSelected3(!selected3);}}></ToggleButton>
                 <ToggleButton color="primary" value="0" selected={selected4} onChange={() => {setSelected4(!selected4);}}></ToggleButton>

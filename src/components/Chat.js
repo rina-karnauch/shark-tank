@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Grid from '@mui/material/Grid';
+import Card from './Card.js'
 
 function Chat() {
     return (
@@ -15,7 +16,7 @@ function Chat() {
                 hello
             </Grid>
             <Grid item xs={9}>
-                hello2
+                <Card/>
             </Grid>
         </Grid>
     );

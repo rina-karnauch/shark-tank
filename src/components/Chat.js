@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Inbox from './LeftSideChat/Inbox'
 import Grid from '@mui/material/Grid';
 function Chat() {
 
@@ -11,8 +12,10 @@ function Chat() {
                       borderRight: "1px solid black",
                       height: "110vh",
                   }}>
-                hello
+                <Inbox fullname={"MyName"} profilePicture={"PATH"}/>
+
             </Grid>
+
             <Grid item xs={9}>
                 hello2
             </Grid>

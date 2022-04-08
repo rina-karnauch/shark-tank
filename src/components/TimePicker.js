@@ -14,6 +14,7 @@ export default function TimePicker() {
                 <TimePickerDay dayName={"Sunday"}/>
                 <TimePickerDay dayName={"Monday"}/>
                 <TimePickerDay dayName={"Tuesday"}/>
+
                 <TimePickerDay dayName={"Wednesday"}/>
                 <TimePickerDay dayName={"Thursday"}/>
                 <TimePickerDay dayName={"Friday"}/>

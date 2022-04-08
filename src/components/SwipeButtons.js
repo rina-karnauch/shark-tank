@@ -12,7 +12,7 @@ const SwipeButtons = ({swipe}) => {
     return (
         <div className="swipeButtons">
             <IconButton onClick={()=>swipe("left")} className= "swipeButtons__left">
-                <HighlightOffRoundedIcon style={{fontSize: "100px",}}/>
+                <HighylightOffRoundedIcon style={{fontSize: "100px",}}/>
             </IconButton>
             <IconButton className= "swipeButtons__right">
                 <CheckCircleOutlineRoundedIcon style={{fontSize: "100px",}}/>

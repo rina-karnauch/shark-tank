@@ -12,7 +12,7 @@ function Page() {
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/q" element={<QComponent/>}/>
-                <Route path="/c" element={<Chat/>}/>
+                {/*<Route path="/c" element={<Chat/>}/>*/}
             </Routes>
 
         </React.Fragment>

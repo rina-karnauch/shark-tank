@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc1a6e47-6a42-4023-9a63-ee7dda6d835c" name="Default Changelist" comment="fixed routing and changed some structure of project">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_5_2022_5_07_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_5_2022_5_07_PM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SwipeButtons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwipeButtons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SwipeButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwipeButtons.js" afterDir="false" />
-    </list>
+    <list default="true" id="bc1a6e47-6a42-4023-9a63-ee7dda6d835c" name="Default Changelist" comment="fixed routing and changed some structure of project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="master2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -183,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649322290368</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="merge commit master">
+      <created>1649386714310</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1649386714310</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +212,8 @@
     <MESSAGE value="changed colors and added empty chat and questionary components, thought about some stuff bc im deep ef" />
     <MESSAGE value="fixed routing and changed some structure of project" />
     <MESSAGE value="add PersonChatBox.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="add PersonChatBox.js" />
+    <MESSAGE value="merge commit master" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge commit master" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

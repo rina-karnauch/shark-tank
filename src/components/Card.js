@@ -2,6 +2,7 @@ import * as React from 'react';
 import noam from '../images/noam.png'
 import chwik from '../images/itamar_cwik.png'
 import shoken from '../images/Shimon_Schocken.png'
+import ocean from '../images/blue_background.jpg'
 //import react, {useState} from "react";
 import TinderCard from "react-tinder-card";
 import swipe from "react-tinder-card";
@@ -157,7 +158,16 @@ function Card() {
         // </div>
 
 
-        <div class="box">
+        <div>
+            {/*<img className="User_image" src={ocean}*/}
+            {/*     style={{*/}
+            {/*         position: 'sticky',*/}
+            {/*         top: '0%',*/}
+            {/*         border: "2px solid black",*/}
+            {/*         height: "100vh",*/}
+            {/*         width: "100vw",*/}
+            {/*     }}>*/}
+            {/*</img>*/}
             <div className="userCards__cardContainer">
                 {users.map((user, index) => (
 
@@ -171,6 +181,7 @@ function Card() {
                     >
 
                         <div style={{
+                            borderRadius:"1px solid #EEEEEE",
                             backgroundImage: `url(${user.pic})`,
                         }}
                              className="card">
@@ -186,32 +197,47 @@ function Card() {
                         {/*</IconButton>*/}
 
 
-                        <div class= "course">
+                        <div class="course">
                             Course: {user.course}
                         </div>
                     </TinderCard>
                 ))}
+                <div className="swipeButtons" >
+
+                    {/*<button onClick={() => swipe("left")}>swipe left</button>*/}
+
+                    <IconButton className="swipeButtons__left"
+                                onClick={() => swipe("left")}>
+                        {/*const GradientOpenWithIcon = () => (*/}
+                        <>
+                            <svg width={0} height={0}>
+                                <linearGradient id="linearColors1" x1={1} y1={0} x2={1} y2={1}>
+                                    <stop offset={0} stopColor="rgba(240,0,0,1)"/>
+                                    <stop offset={1} stopColor="rgba(160,10,100,1)"/>
+                                </linearGradient>
+                            </svg>
+                            <HighlightOffRoundedIcon sx={{fill: "white"}} style={{fontSize: "90px",
+                            }}/>
+                        </>
+                    </IconButton>
+                    <IconButton className="swipeButtons__right"
+                                onClick={() => {
+                                    swipe()
+                                }}>
+                        <>
+                            <svg width={0} height={0}>
+                                <linearGradient id="linearColors2" x1={1} y1={0} x2={1} y2={1}>
+                                    <stop offset={0} stopColor="rgba(10,230,30,1)"/>
+                                    <stop offset={1} stopColor="rgba(40,160,20,1)"/>
+                                </linearGradient>
+                            </svg>
+                            <CheckCircleOutlineRoundedIcon sx={{fill: "white"}} style={{fontSize: "90px",}}/>
+                        </>
+                    </IconButton>
+
+                </div>
             </div>
 
-            <div className="swipeButtons">
-
-                {/*<button onClick={() => swipe("left")}>swipe left</button>*/}
-
-                <IconButton className="swipeButtons__left"
-                            onClick={() => swipe("left")}>
-
-                    <HighlightOffRoundedIcon style={{fontSize: "100px",}}/>
-
-                </IconButton>
-
-                <IconButton className="swipeButtons__right"
-                            onClick={() => {
-                                swipe()
-                            }}>
-                    <CheckCircleOutlineRoundedIcon style={{fontSize: "100px",}}/>
-                </IconButton>
-
-            </div>
 
 
         </div>

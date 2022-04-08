@@ -16,9 +16,7 @@ function Chat() {
 
                   }}>
                 <Inbox fullname={"MyName"} profilePicture={"PATH"}/>
-
             </Grid>
-
             <Grid item xs={9}>
                 <Card/>
             </Grid>

@@ -1,6 +1,8 @@
 import * as React from 'react';
 import Inbox from './LeftSideChat/Inbox'
 import Grid from '@mui/material/Grid';
+import Card from './Card.js'
+
 function Chat() {
 
     return (
@@ -11,13 +13,14 @@ function Chat() {
                   style={{
                       borderRight: "1px solid black",
                       height: "110vh",
+
                   }}>
                 <Inbox fullname={"MyName"} profilePicture={"PATH"}/>
 
             </Grid>
 
             <Grid item xs={9}>
-                hello2
+                <Card/>
             </Grid>
         </Grid>
     );

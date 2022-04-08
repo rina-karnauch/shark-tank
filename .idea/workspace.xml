@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc1a6e47-6a42-4023-9a63-ee7dda6d835c" name="Default Changelist" comment="add PersonChatBox.js">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SwipeButtons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SwipeButtons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Shimon_Schocken.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/itamar_cwik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/noam.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_5_2022_5_07_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_5_2022_5_07_PM__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chat.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +47,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/components/LeftSideChat/Inbox.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/AccountBox/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/LeftSideChat/Inbox.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -192,7 +201,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixed eslint" />

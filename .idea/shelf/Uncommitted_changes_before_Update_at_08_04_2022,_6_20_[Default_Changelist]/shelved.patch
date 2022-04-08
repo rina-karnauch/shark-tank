@@ -1,0 +1,323 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"bc1a6e47-6a42-4023-9a63-ee7dda6d835c\" name=\"Default Changelist\" comment=\"add PersonChatBox.js\">\n      <change afterPath=\"$PROJECT_DIR$/src/components/Card.css\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/components/Card.js\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/components/SwipeButtons.css\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/components/SwipeButtons.js\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/images/Shimon_Schocken.png\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/images/itamar_cwik.png\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/images/noam.png\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_5_2022_5_07_PM__Default_Changelist_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_5_2022_5_07_PM__Default_Changelist_.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/package-lock.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/package-lock.json\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/package.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/package.json\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/components/Chat.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/Chat.js\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"CSS File\" />\n        <option value=\"JavaScript File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitSEFilterConfiguration\">\n    <file-type-list>\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\n      <filtered-out-file-type name=\"TAG\" />\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\n    </file-type-list>\n  </component>\n  <component name=\"HighlightingSettingsPerFile\">\n    <setting file=\"file://$PROJECT_DIR$/src/components/AccountBox/index.js\" root0=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/src/components/LeftSideChat/Inbox.js\" root0=\"FORCE_HIGHLIGHTING\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"24s85rJ5bYvpVeLM4MniMw8JW6r\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/src/images\" />\n    <property name=\"list.type.of.created.stylesheet\" value=\"CSS\" />\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"settings.nodejs\" />\n    <property name=\"ts.external.directory.path\" value=\"$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src/images\" />\n      <recent name=\"$PROJECT_DIR$/public\" />\n    </key>\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"npm start\" type=\"js.build_tools.npm\">\n      <package-json value=\"$PROJECT_DIR$/package.json\" />\n      <command value=\"start\" />\n      <node-interpreter value=\"project\" />\n      <envs />\n      <method v=\"2\" />\n    </configuration>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"bc1a6e47-6a42-4023-9a63-ee7dda6d835c\" name=\"Default Changelist\" comment=\"\" />\n      <created>1644407754217</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1644407754217</updated>\n      <workItem from=\"1644407763200\" duration=\"23000\" />\n      <workItem from=\"1644407788379\" duration=\"19895000\" />\n      <workItem from=\"1644751775321\" duration=\"1881000\" />\n      <workItem from=\"1644833987738\" duration=\"14265000\" />\n      <workItem from=\"1644916687671\" duration=\"49000\" />\n      <workItem from=\"1645812629308\" duration=\"563000\" />\n      <workItem from=\"1646140598331\" duration=\"1928000\" />\n      <workItem from=\"1646339646972\" duration=\"575000\" />\n      <workItem from=\"1647249688037\" duration=\"1032000\" />\n      <workItem from=\"1648146304213\" duration=\"6884000\" />\n      <workItem from=\"1648401876526\" duration=\"683000\" />\n      <workItem from=\"1648455434871\" duration=\"2621000\" />\n      <workItem from=\"1648567887584\" duration=\"1342000\" />\n      <workItem from=\"1648969359018\" duration=\"183000\" />\n      <workItem from=\"1648969566621\" duration=\"1486000\" />\n      <workItem from=\"1648981806481\" duration=\"2168000\" />\n      <workItem from=\"1649317922658\" duration=\"35740000\" />\n      <workItem from=\"1649368478813\" duration=\"5675000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"fixed eslint\">\n      <created>1644408172687</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1644408172687</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"added dummy sign up\">\n      <created>1644429188871</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1644429188871</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"changed some colors\">\n      <created>1644492864018</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1644492864018</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"login and signup ui is ready\">\n      <created>1644522222060</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1644522222060</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"fixed position of inputs\">\n      <created>1644834795263</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1644834795263</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"fixed header\">\n      <created>1644840468457</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1644840468457</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"again changed some colors\">\n      <created>1644864564381</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1644864564381</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"added some check up functions and state for login and signup form\">\n      <created>1648150023577</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1648150023577</updated>\n    </task>\n    <task id=\"LOCAL-00009\" summary=\"changed colors and added empty chat and questionary components, thought about some stuff bc im deep ef\">\n      <created>1648457073635</created>\n      <option name=\"number\" value=\"00009\" />\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1648457073635</updated>\n    </task>\n    <task id=\"LOCAL-00010\" summary=\"add PersonChatBox.js\">\n      <created>1649322290368</created>\n      <option name=\"number\" value=\"00010\" />\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1649322290368</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"11\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"fixed eslint\" />\n    <MESSAGE value=\"added dummy sign up\" />\n    <MESSAGE value=\"changed some colors\" />\n    <MESSAGE value=\"login and signup ui is ready\" />\n    <MESSAGE value=\"fixed position of inputs\" />\n    <MESSAGE value=\"fixed header\" />\n    <MESSAGE value=\"again changed some colors\" />\n    <MESSAGE value=\"added some check up functions and state for login and signup form\" />\n    <MESSAGE value=\"changed colors and added empty chat and questionary components, thought about some stuff bc im deep ef\" />\n    <MESSAGE value=\"fixed routing and changed some structure of project\" />\n    <MESSAGE value=\"add PersonChatBox.js\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"add PersonChatBox.js\" />\n  </component>\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\n    <expand />\n    <select />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision c3681f7e87838c9750fee36b7f973c1cbbd324af)
++++ b/.idea/workspace.xml	(date 1649387731922)
+@@ -4,18 +4,12 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="bc1a6e47-6a42-4023-9a63-ee7dda6d835c" name="Default Changelist" comment="add PersonChatBox.js">
+-      <change afterPath="$PROJECT_DIR$/src/components/Card.css" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/components/Card.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/components/SwipeButtons.css" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/components/SwipeButtons.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/images/Shimon_Schocken.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/images/itamar_cwik.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/images/noam.png" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_5_2022_5_07_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_5_2022_5_07_PM__Default_Changelist_.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/components/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chat.js" afterDir="false" />
++    <list default="true" id="bc1a6e47-6a42-4023-9a63-ee7dda6d835c" name="Default Changelist" comment="fixed routing and changed some structure of project">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/components/Card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/components/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.js" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/components/SwipeButtons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwipeButtons.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/components/SwipeButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwipeButtons.js" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -29,11 +23,14 @@
+         <option value="JavaScript File" />
+       </list>
+     </option>
++  </component>
++  <component name="Git.Merge.Settings">
++    <option name="BRANCH" value="master" />
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="master" />
++        <entry key="$PROJECT_DIR$" value="master2" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -48,6 +45,7 @@
+   </component>
+   <component name="HighlightingSettingsPerFile">
+     <setting file="file://$PROJECT_DIR$/src/components/AccountBox/index.js" root0="FORCE_HIGHLIGHTING" />
++    <setting file="file://$PROJECT_DIR$/src/components/Home.js" root0="FORCE_HIGHLIGHTING" />
+     <setting file="file://$PROJECT_DIR$/src/components/LeftSideChat/Inbox.js" root0="FORCE_HIGHLIGHTING" />
+   </component>
+   <component name="MarkdownSettingsMigration">
+@@ -185,7 +183,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1649322290368</updated>
+     </task>
+-    <option name="localTasksCounter" value="11" />
++    <task id="LOCAL-00011" summary="merge commit master">
++      <created>1649386714310</created>
++      <option name="number" value="00011" />
++      <option name="presentableId" value="LOCAL-00011" />
++      <option name="project" value="LOCAL" />
++      <updated>1649386714310</updated>
++    </task>
++    <option name="localTasksCounter" value="12" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -214,7 +219,8 @@
+     <MESSAGE value="changed colors and added empty chat and questionary components, thought about some stuff bc im deep ef" />
+     <MESSAGE value="fixed routing and changed some structure of project" />
+     <MESSAGE value="add PersonChatBox.js" />
+-    <option name="LAST_COMMIT_MESSAGE" value="add PersonChatBox.js" />
++    <MESSAGE value="merge commit master" />
++    <option name="LAST_COMMIT_MESSAGE" value="merge commit master" />
+   </component>
+   <component name="XSLT-Support.FileAssociations.UIState">
+     <expand />
+Index: src/components/Card.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import * as React from 'react';\nimport noam from '../images/noam.png'\nimport chwik from '../images/itamar_cwik.png'\nimport shoken from '../images/Shimon_Schocken.png'\n//import react, {useState} from \"react\";\nimport TinderCard from \"react-tinder-card\";\nimport swipe from \"react-tinder-card\";\n// import TinderCard from '../react-tinder-card/index';\n\nimport SwipeButtons from \"./SwipeButtons\"\nimport LooksOneIcon from '@mui/icons-material/LooksOne';\nimport LooksTwoIcon from '@mui/icons-material/LooksTwo';\nimport Looks3Icon from '@mui/icons-material/Looks3';\nimport Looks4Icon from '@mui/icons-material/Looks4';\n\nimport HighlightOffRoundedIcon from '@mui/icons-material/HighlightOffRounded';\nimport CloseRoundedIcon from '@mui/icons-material/CloseRounded';\nimport CheckCircleRoundedIcon from '@mui/icons-material/CheckCircleRounded';\nimport CheckCircleOutlineRoundedIcon from '@mui/icons-material/CheckCircleOutlineRounded';\nimport IconButton from '@mui/material/IconButton';\nimport ReplayIcon from '@mui/icons-material/Replay';\nimport InfoRoundedIcon from '@mui/icons-material/InfoRounded';\nimport react, {useState, useMemo, useRef} from 'react'\n\nimport \"./SwipeButtons.css\"\nimport \"./Card.css\"\n\n\nlet IMAGE_WIDTH = \"300px\"\nlet IMAGE_HEIGHT = \"400px\"\n\n//const [users, setUsers] = useState([\nconst users = [{\n    //const [courses] = useState([\"Linear Algebra 1\", \"Linear Algebra 2\"]),\n    name: \"Itamar Chwik\",\n    //Courses: setCourses([...courses,\"Linear Algebra 1\", \"Linear Algebra 2\"]),\n    courses: new Set(\"Linear Algebra 1\", \"Linear Algebra 2\"),\n    course: \"Linear Algebra 1\",\n    pic: chwik,\n    description: \"I'm not a Lair. I'm a mathematician!\",\n    year: 1,\n},\n    {\n        name: \"Shimon Shoken\",\n        //Courses: setCourses([...courses,\"Nand to Tetris\"]),\n        courses: new Set(\"Nand to Tetris\"),\n        course: \"Nand to Tetris\",\n        pic: shoken,\n        description: \"High Tech, Schmai Tech,\\n\" +\n            \"The most important thing is to be a mentch!\",\n        year: 2,\n    },\n    {\n        name: \"Noam  Nisan\",\n        courses: new Set(\"Nand to Tetris\",\n            \"Introduction To Mathematical Logic for Programming - Oriented Students\"),\n        course: \"Nand to Tetris\",\n        //Courses: setCourses([...courses,\"Nand to Tetris\",\n        //    \"Introduction To Mathematical Logic for Programming - Oriented Students\"]),\n        pic: noam,\n        description: \"I think we should also confess, \" +\n            \"that our simulator is not that efficient\",\n        year: 2,\n    }\n];\n\nfunction Card() {\n    const [currentIndex, setCurrentIndex] = useState(users.length - 1)\n    const [lastDirection, setLastDirection] = useState()\n    // used for outOfFrame closure\n    const currentIndexRef = useRef(currentIndex)\n\n    const childRefs = useMemo(\n        () =>\n            Array(users.length)\n                .fill(0)\n                .map((i) => React.createRef()),\n        []\n    )\n\n    const updateCurrentIndex = (val) => {\n        setCurrentIndex(val)\n        currentIndexRef.current = val\n    }\n\n    const canGoBack = currentIndex < users.length - 1\n\n    const canSwipe = currentIndex >= 0\n\n    // set last direction and decrease current index\n    const swiped = (direction, nameToDelete, index) => {\n        setLastDirection(direction)\n        updateCurrentIndex(index - 1)\n    }\n\n    const outOfFrame = (name, idx) => {\n        console.log(`${name} (${idx}) left the screen!`, currentIndexRef.current)\n        // handle the case in which go back is pressed before card goes outOfFrame\n        currentIndexRef.current >= idx && childRefs[idx].current.restoreCard()\n        // TODO: when quickly swipe and restore multiple times the same card,\n        // it happens multiple outOfFrame events are queued and the card disappear\n        // during latest swipes. Only the last outOfFrame event should be considered valid\n    }\n\n    const swipe = async (dir) => {\n        if (canSwipe && currentIndex < users.length) {\n            await childRefs[currentIndex].current.swipe(dir) // Swipe the card!\n        }\n    }\n\n    // increase current index and show card\n    const goBack = async () => {\n        if (!canGoBack) return\n        const newIndex = currentIndex + 1\n        updateCurrentIndex(newIndex)\n        await childRefs[newIndex].current.restoreCard()\n    }\n// function yearSource(year){\n//     return (year==1?LooksOneIcon:year==2?LooksTwoIcon:year==3?Looks3Icon:year==4?Looks4Icon:null);\n//     // if(year == 1){\n//     //     return(LooksOneIcon);\n//     // }\n//     // if(year == 2){\n//     //     return(LooksTwoIcon);\n//     // }\n//     // if(year == 3){\n//     //     return(Looks3Icon);\n//     // }\n//     // if(year == 4){\n//     //     return(Looks4Icon);\n//     // }\n// }\n\n\n    //const [courses, setCourses]= useState([]);\n\n    // const canSwipe = currentIndex >= 0\n    // const swipe = async (dir) => {\n    //     if (canSwipe && currentIndex < db.length) {\n    //         await childRefs[currentIndex].current.swipe(dir) // Swipe the card!\n    //     }\n    // }\n    // setUsers([...users, 'chwik', 'shimon'])\n    return (\n        /**card*/\n        // <div>\n        //     <img className=\"User_image\" src={chwik}\n        //          style={{\n        //              position: 'absolute',\n        //              left: '50%',\n        //              top: '20%',\n        //              border: \"2px solid black\",\n        //              height: IMAGE_HEIGHT,\n        //              width: IMAGE_WIDTH,\n        //              }}>\n        //     </img>\n        // </div>\n\n\n        <div class=\"box\">\n            <div className=\"userCards__cardContainer\">\n                {users.map((user, index) => (\n\n                    <TinderCard\n                        ref={childRefs[index]}\n                        className=\"swipe\"\n                        key={user.name}\n                        preventSwipe={[\"up\", \"down\"]}\n                        onSwipe={(dir) => swiped(dir, user.name, index)}\n                        onCardLeftScreen={() => outOfFrame(user.name, index)}\n                    >\n\n                        <div style={{\n                            backgroundImage: `url(${user.pic})`,\n                        }}\n                             className=\"card\">\n                            <h3>{user.name}</h3>\n                        </div>\n                        {/*<IconButton className =\"swipeButtons__info\" onClick={()=>{}}>*/}\n                        {/*    <InfoRoundedIcon style={{*/}\n                        {/*        fontSize: \"30px\",*/}\n                        {/*        // left: \"100%\",*/}\n                        {/*        // top: \"20%\",*/}\n                        {/*        color: \"grey\",*/}\n                        {/*    }}/>*/}\n                        {/*</IconButton>*/}\n\n\n                        <div class= \"course\">\n                            Course: {user.course}\n                        </div>\n                    </TinderCard>\n                ))}\n            </div>\n\n            <div className=\"swipeButtons\">\n\n                {/*<button onClick={() => swipe(\"left\")}>swipe left</button>*/}\n\n                <IconButton className=\"swipeButtons__left\"\n                            onClick={() => swipe(\"left\")}>\n\n                    <HighlightOffRoundedIcon style={{fontSize: \"100px\",}}/>\n\n                </IconButton>\n\n                <IconButton className=\"swipeButtons__right\"\n                            onClick={() => {\n                                swipe()\n                            }}>\n                    <CheckCircleOutlineRoundedIcon style={{fontSize: \"100px\",}}/>\n                </IconButton>\n\n            </div>\n\n\n        </div>\n\n    );\n}\n\n\nexport default Card;
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/components/Card.js b/src/components/Card.js
+--- a/src/components/Card.js	(revision c3681f7e87838c9750fee36b7f973c1cbbd324af)
++++ b/src/components/Card.js	(date 1649387731834)
+@@ -157,7 +157,16 @@
+         // </div>
+ 
+ 
+-        <div class="box">
++        <div>
++            {/*<img className="User_image" src={ocean}*/}
++            {/*     style={{*/}
++            {/*         position: 'sticky',*/}
++            {/*         top: '0%',*/}
++            {/*         border: "2px solid black",*/}
++            {/*         height: "100vh",*/}
++            {/*         width: "100vw",*/}
++            {/*     }}>*/}
++            {/*</img>*/}
+             <div className="userCards__cardContainer">
+                 {users.map((user, index) => (
+ 
+@@ -171,6 +180,7 @@
+                     >
+ 
+                         <div style={{
++                            borderRadius:"1px solid #EEEEEE",
+                             backgroundImage: `url(${user.pic})`,
+                         }}
+                              className="card">
+@@ -186,34 +196,49 @@
+                         {/*</IconButton>*/}
+ 
+ 
+-                        <div class= "course">
++                        <div class="course">
+                             Course: {user.course}
+                         </div>
+                     </TinderCard>
+                 ))}
+-            </div>
+-
+-            <div className="swipeButtons">
++                <div className="swipeButtons" >
+ 
+-                {/*<button onClick={() => swipe("left")}>swipe left</button>*/}
++                    {/*<button onClick={() => swipe("left")}>swipe left</button>*/}
+ 
+-                <IconButton className="swipeButtons__left"
+-                            onClick={() => swipe("left")}>
+-
+-                    <HighlightOffRoundedIcon style={{fontSize: "100px",}}/>
+-
+-                </IconButton>
+-
+-                <IconButton className="swipeButtons__right"
+-                            onClick={() => {
+-                                swipe()
+-                            }}>
+-                    <CheckCircleOutlineRoundedIcon style={{fontSize: "100px",}}/>
+-                </IconButton>
++                    <IconButton className="swipeButtons__left"
++                                onClick={() => swipe("left")}>
++                        {/*const GradientOpenWithIcon = () => (*/}
++                        <>
++                            <svg width={0} height={0}>
++                                <linearGradient id="linearColors1" x1={1} y1={0} x2={1} y2={1}>
++                                    <stop offset={0} stopColor="rgba(240,0,0,1)"/>
++                                    <stop offset={1} stopColor="rgba(160,10,100,1)"/>
++                                </linearGradient>
++                            </svg>
++                            <HighlightOffRoundedIcon sx={{fill: "white"}} style={{fontSize: "90px",
++                            }}/>
++                        </>
++                    </IconButton>
++                    <IconButton className="swipeButtons__right"
++                                onClick={() => {
++                                    swipe()
++                                }}>
++                        <>
++                            <svg width={0} height={0}>
++                                <linearGradient id="linearColors2" x1={1} y1={0} x2={1} y2={1}>
++                                    <stop offset={0} stopColor="rgba(10,230,30,1)"/>
++                                    <stop offset={1} stopColor="rgba(40,160,20,1)"/>
++                                </linearGradient>
++                            </svg>
++                            <CheckCircleOutlineRoundedIcon sx={{fill: "white"}} style={{fontSize: "90px",}}/>
++                        </>
++                    </IconButton>
+ 
++                </div>
+             </div>
+ 
+ 
++
+         </div>
+ 
+     );
+Index: src/components/Card.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.card {\n    position: relative;\n    width: 400px;\n    padding: 20px;\n    max-width: 85vw;\n    height: 50vh;\n    /*border-radius: 15px;*/\n    border-top-left-radius:15px ;\n    border-top-right-radius:15px ;\n    background-position: center;\n    background-size: cover;\n    /*box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3);*/\n\n\n}\n\n.card > h3 {\n    position: absolute;\n    bottom: 0px;\n    color: white;\n}\n\n.card > h4 {\n    position: absolute;\n    bottom: -16px;\n    color: white;\n}\n\n.userCards__cardContainer {\n    display: flex;\n    justify-content: center;\n    margin-top: 5vh;\n}\n\n.swipe {\n    position: absolute;\n    top: 20%;\n}\n\n.box {\n    height: 100%;\n    width: 100%;\n    background: linear-gradient(rgba(250, 0, 0, 0.8), transparent);\n    /*background: linear-gradient(rgba(250, 250, 250, 0.8), transparent);*/\n\n    background-color: dodgerblue\n}\n\n.course {\n    /*height:100%;*/\n    /*width:100%;*/\n    padding: 10px;\n    font-size: 20px;\n    color: aliceblue;\n    background: linear-gradient(rgba(100, 0,200, 0.5), transparent);\n    /*background: linear-gradient(rgba(200, 200,200, 0.5), transparent);*/\n\n    background-color:cornflowerblue\n    /*background-color: darkslateblue;*/\n}\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/components/Card.css b/src/components/Card.css
+--- a/src/components/Card.css	(revision c3681f7e87838c9750fee36b7f973c1cbbd324af)
++++ b/src/components/Card.css	(date 1649387699659)
+@@ -1,3 +1,7 @@
++html{
++    background-color: #FAFAFA;
++}
++
+ .card {
+     position: relative;
+     width: 400px;
+@@ -11,7 +15,6 @@
+     background-size: cover;
+     /*box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3);*/
+ 
+-
+ }
+ 
+ .card > h3 {
+@@ -37,25 +40,24 @@
+     top: 20%;
+ }
+ 
+-.box {
+-    height: 100%;
+-    width: 100%;
+-    background: linear-gradient(rgba(250, 0, 0, 0.8), transparent);
+-    /*background: linear-gradient(rgba(250, 250, 250, 0.8), transparent);*/
++/*.box {*/
++/*    height: 100vh;*/
++/*    width: 100%;*/
++/*    background: linear-gradient(rgba(250, 0, 0, 0.8), transparent);*/
++/*    !*background: linear-gradient(rgba(250, 250, 250, 0.8), transparent);*!*/
+ 
+-    background-color: dodgerblue
+-}
++/*    background-color: dodgerblue*/
++/*}*/
+ 
+ .course {
+     /*height:100%;*/
+     /*width:100%;*/
+-    padding: 10px;
++    padding: 30px;
++    border-radius: 0px 0px 40px 40px;
+     font-size: 20px;
+     color: aliceblue;
+-    background: linear-gradient(rgba(100, 0,200, 0.5), transparent);
++    background-image: linear-gradient(to bottom right, #0a77dd 10%, #a5cbea);
+     /*background: linear-gradient(rgba(200, 200,200, 0.5), transparent);*/
+-
+-    background-color:cornflowerblue
+     /*background-color: darkslateblue;*/
+ }
+ 
+Index: src/components/SwipeButtons.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.swipeButtons {\n    position: fixed;\n    bottom: 10vh;\n    background-position: center;\n    width: 60%;\n    left: 33%;\n    display: flex;\n    justify-content: space-evenly;\n}\n\n.swipeButtons .MuiIconButton-root {\n    background-color: lightskyblue;\n    /*background-color: lightseagreen;*/\n\n\n    /*color: white;*/\n    box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3) !important;\n}\n\n.swipeButtons .MuiIconButton-root.swipeButtons__left {\n    padding: 3vw !important;\n    color: crimson;\n}\n\n.swipeButtons .MuiIconButton-root.swipeButtons__right {\n    padding: 3vw !important;\n    color: lawngreen;\n}\n\n.swipeButtons__info {\n     left: 85%;\n}\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/components/SwipeButtons.css b/src/components/SwipeButtons.css
+--- a/src/components/SwipeButtons.css	(revision c3681f7e87838c9750fee36b7f973c1cbbd324af)
++++ b/src/components/SwipeButtons.css	(date 1649387699661)
+@@ -1,30 +1,31 @@
+ .swipeButtons {
+-    position: fixed;
+-    bottom: 10vh;
++    position: relative;
+     background-position: center;
+-    width: 60%;
+-    left: 33%;
+     display: flex;
++    bottom:-610px;
+     justify-content: space-evenly;
+ }
+ 
+ .swipeButtons .MuiIconButton-root {
+-    background-color: lightskyblue;
++    margin:20px;
++    height:115px;
++    background-color: white;
+     /*background-color: lightseagreen;*/
+ 
+-
+     /*color: white;*/
+-    box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3) !important;
++    /*box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3) !important;*/
+ }
+ 
+ .swipeButtons .MuiIconButton-root.swipeButtons__left {
+-    padding: 3vw !important;
+-    color: crimson;
++    border:1px solid #F9F9F9;
++    background: linear-gradient(#da0d25, #ffd991);
++    /*color-adjust: linear-gradient(rgba(100, 0,200, 0.5), transparent);*/
+ }
+ 
+ .swipeButtons .MuiIconButton-root.swipeButtons__right {
+-    padding: 3vw !important;
+-    color: lawngreen;
++    border:1px solid #F9F9F9;
++    background: linear-gradient(rgb(159, 229, 74), #7dced5);
++
+ }
+ 
+ .swipeButtons__info {
+Index: src/components/SwipeButtons.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import react from 'react'\nimport \"./SwipeButtons.css\"\nimport HighlightOffRoundedIcon from '@mui/icons-material/HighlightOffRounded';\nimport CloseRoundedIcon from '@mui/icons-material/CloseRounded';\nimport CheckCircleRoundedIcon from '@mui/icons-material/CheckCircleRounded';\nimport CheckCircleOutlineRoundedIcon from '@mui/icons-material/CheckCircleOutlineRounded';\nimport IconButton from '@mui/material/IconButton';\nimport ReplayIcon from '@mui/icons-material/Replay';\n\n\nconst SwipeButtons = ({swipe}) => {\n    return (\n        <div className=\"swipeButtons\">\n            <IconButton onClick={()=>swipe(\"left\")} className= \"swipeButtons__left\">\n                <HighlightOffRoundedIcon style={{fontSize: \"100px\",}}/>\n            </IconButton>\n            <IconButton className= \"swipeButtons__right\">\n                <CheckCircleOutlineRoundedIcon style={{fontSize: \"100px\",}}/>\n            </IconButton>\n\n        </div>\n    )\n}\n\nexport default SwipeButtons
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/components/SwipeButtons.js b/src/components/SwipeButtons.js
+--- a/src/components/SwipeButtons.js	(revision c3681f7e87838c9750fee36b7f973c1cbbd324af)
++++ b/src/components/SwipeButtons.js	(date 1649387699662)
+@@ -12,7 +12,7 @@
+     return (
+         <div className="swipeButtons">
+             <IconButton onClick={()=>swipe("left")} className= "swipeButtons__left">
+-                <HighlightOffRoundedIcon style={{fontSize: "100px",}}/>
++                <HighlightOffRoundedIcon style={{fontSize: "600px",}}/>
+             </IconButton>
+             <IconButton className= "swipeButtons__right">
+                 <CheckCircleOutlineRoundedIcon style={{fontSize: "100px",}}/>

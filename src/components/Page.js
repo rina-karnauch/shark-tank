@@ -10,9 +10,9 @@ function Page() {
     return (
         <React.Fragment>
             <Routes>
-                <Route path="/shark-tank" element={<Home/>}/>
-                <Route path="/shark-tank/q" element={<QComponent/>}/>
-                <Route path="/shark-tank/c" element={<Chat/>}/>
+                <Route path="/shark-tank/" element={<Home/>}/>
+                <Route path="/shark-tank/q/" element={<QComponent/>}/>
+                <Route path="/shark-tank/c/" element={<Chat/>}/>
             </Routes>
         </React.Fragment>
     );

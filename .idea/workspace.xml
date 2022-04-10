@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc1a6e47-6a42-4023-9a63-ee7dda6d835c" name="Default Changelist" comment="most current">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AccountBox/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccountBox/LoginForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AccountBox/signupForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccountBox/signupForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LeftSideChat/Inbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftSideChat/Inbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LeftSideChat/mock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftSideChat/mock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/QComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/QComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SwipeButtons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwipeButtons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TimePicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TimePicker.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +110,7 @@
       <workItem from="1649317922658" duration="35740000" />
       <workItem from="1649368478813" duration="5675000" />
       <workItem from="1649392795112" duration="3207000" />
+      <workItem from="1649602224733" duration="600000" />
     </task>
     <task id="LOCAL-00001" summary="fixed eslint">
       <created>1644408172687</created>

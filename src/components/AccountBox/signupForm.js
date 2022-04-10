@@ -72,7 +72,9 @@ export function SignupForm(props) {
                               () => {
                                 validateSignup();
                                 func();
+                                window.location.assign("http://localhost:3000/q")
                               }
+
                           }
             >
                 Signup

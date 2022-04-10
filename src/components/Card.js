@@ -2,7 +2,6 @@ import * as React from 'react';
 import noam from '../images/noam.png'
 import chwik from '../images/itamar_cwik.png'
 import shoken from '../images/Shimon_Schocken.png'
-import ocean from '../images/blue_background.jpg'
 //import react, {useState} from "react";
 import TinderCard from "react-tinder-card";
 import swipe from "react-tinder-card";
@@ -181,7 +180,7 @@ function Card() {
                     >
 
                         <div style={{
-                            borderRadius:"1px solid #EEEEEE",
+                            borderRadius:"1px solid #FAFAFA",
                             backgroundImage: `url(${user.pic})`,
                         }}
                              className="card">
@@ -196,14 +195,15 @@ function Card() {
                         {/*    }}/>*/}
                         {/*</IconButton>*/}
 
-
                         <div class="course">
                             Course: {user.course}
                         </div>
                     </TinderCard>
                 ))}
+                {/*{*/}
+                {/*    (users.length > 0) ?  : null*/}
+                {/*}*/}
                 <div className="swipeButtons" >
-
                     {/*<button onClick={() => swipe("left")}>swipe left</button>*/}
 
                     <IconButton className="swipeButtons__left"
@@ -222,7 +222,7 @@ function Card() {
                     </IconButton>
                     <IconButton className="swipeButtons__right"
                                 onClick={() => {
-                                    swipe()
+                                    swipe();
                                 }}>
                         <>
                             <svg width={0} height={0}>
@@ -234,12 +234,8 @@ function Card() {
                             <CheckCircleOutlineRoundedIcon sx={{fill: "white"}} style={{fontSize: "90px",}}/>
                         </>
                     </IconButton>
-
                 </div>
             </div>
-
-
-
         </div>
 
     );

@@ -1,6 +1,7 @@
 import React, {useContext, useState} from 'react';
 import {AccountContext} from "./AccountContext";
 import {BoxContainer, FormContainer, Input, MutedLink, SubmitButton, BoldLink} from './common'
+import { useHistory } from "react-router-dom";
 
 export function LoginForm() {
 
@@ -46,6 +47,7 @@ export function LoginForm() {
                               () => {
                                   validateLogin();
                                   func();
+                                  window.location.assign("http://localhost:3000/c");
                               }
                           }
             >

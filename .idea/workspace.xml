@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc1a6e47-6a42-4023-9a63-ee7dda6d835c" name="Default Changelist" comment="fixed routing and changed some structure of project" />
+    <list default="true" id="bc1a6e47-6a42-4023-9a63-ee7dda6d835c" name="Default Changelist" comment="most current">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AccountBox/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccountBox/LoginForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AccountBox/signupForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccountBox/signupForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LeftSideChat/Inbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftSideChat/Inbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LeftSideChat/mock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftSideChat/mock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/QComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/QComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SwipeButtons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwipeButtons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TimePicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TimePicker.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +53,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/components/Card.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/AccountBox/index.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/Home.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/LeftSideChat/Inbox.js" root0="FORCE_HIGHLIGHTING" />
@@ -106,6 +122,7 @@
       <workItem from="1648981806481" duration="2168000" />
       <workItem from="1649317922658" duration="35740000" />
       <workItem from="1649368478813" duration="5675000" />
+      <workItem from="1649392795112" duration="3207000" />
     </task>
     <task id="LOCAL-00001" summary="fixed eslint">
       <created>1644408172687</created>
@@ -184,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649386714310</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="most current">
+      <created>1649388665531</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1649388665531</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +217,11 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="752260ea-9940-452c-9ca4-9401acc54dd7">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -214,7 +243,8 @@
     <MESSAGE value="fixed routing and changed some structure of project" />
     <MESSAGE value="add PersonChatBox.js" />
     <MESSAGE value="merge commit master" />
-    <option name="LAST_COMMIT_MESSAGE" value="merge commit master" />
+    <MESSAGE value="most current" />
+    <option name="LAST_COMMIT_MESSAGE" value="most current" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

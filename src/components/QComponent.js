@@ -12,8 +12,8 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import AddCircleIcon from '@mui/icons-material/AddCircle';
 
 import IconButton from '@mui/material/IconButton';
-import { styled } from '@mui/material/styles';
-import RadioGroup, { useRadioGroup } from '@mui/material/RadioGroup';
+import {styled} from '@mui/material/styles';
+import RadioGroup, {useRadioGroup} from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Radio from '@mui/material/Radio';
 
@@ -50,26 +50,43 @@ function QComponent() {
 
     return (
         <Grid container spacing={2}>
-            <Grid item xs={6}>
-        <div>
-            {courses}
-
-            <TextField id="addExerciseField" label="Standard" variant="standard"
-                       onChange={(event) => {
-                           setCourseName(event.target.value);
-                       }}
-                       value={courseName}
-            />
-
-            <IconButton aria-label="add" onClick={newCourse}>
-                <AddCircleIcon />
-            </IconButton>
-        </div>
+            <Grid item xs={2}>
+                <button type="button"
+                        style={{width:"100px",
+                            background:"transparent",
+                            marginLeft:"10px",
+                            border:"1px solid white",
+                            height:"110vh"}}
+                        onClick={() => {window.location.assign("http://localhost:3000/c");}}>
+                    ⏮
+                    Next Page
+                </button>
             </Grid>
-            <Grid item xs={6}>
-                <TimePicker />
+            <Grid item xs={4} style={{height: "110vh", padding:"50px"}}>
+                <div>
+                    {courses}
+                    <TextField id="addExerciseField"
+                               label="Course"
+                               variant="standard"
+                               onChange={(event) => {
+                                   setCourseName(event.target.value);
+                               }}
+                               value={courseName}
+                    style={{margin:"10px"}}/>
+                    <IconButton aria-label="add"
+                                style={{marginTop:"20px"}}
+                                onClick={newCourse}>
+                        <AddCircleIcon/>
+                    </IconButton>
+                </div>
             </Grid>
-</Grid>
+            <Grid item xs={6} style={{height: "110vh"}} style={{
+                textAlign: "center",
+                marginTop:"50px",
+            }}>
+                <TimePicker/>
+            </Grid>
+        </Grid>
     );
 }
 

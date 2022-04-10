@@ -1,6 +1,6 @@
 import * as React from "react";
 import PersonInboxItem from "./PersonInboxItem"
-import { styled } from "@mui/material/styles";
+import {TiMessages} from 'react-icons/ti';
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import CssBaseline from "@mui/material/CssBaseline";
@@ -8,98 +8,102 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import IconButton from "@mui/material/IconButton";
 import Paper from "@mui/material/Paper";
-import Fab from "@mui/material/Fab";
 import List from "@mui/material/List";
 import Avatar from "@mui/material/Avatar";
-import AddIcon from "@mui/icons-material/Add";
 import SearchIcon from "@mui/icons-material/Search";
-import MoreIcon from "@mui/icons-material/MoreVert";
 import InputBase from '@mui/material/InputBase';
 import Data from "./mock.json";
-import {useState,useEffect} from "react";
-
-//http://132.64.33.7:4000/conversations/eliran
-
-// Plus Button
-const StyledFab = styled(Fab)({
-    backgroundColor: "rgba(161, 161, 161, 0.8)",
-    position: "absolute",
-    zIndex: 1,
-    top: 30,
-    left: 0,
-    right: 0,
-    margin: "0 auto",
-    "&:hover": {
-        backgroundColor: "rgba(161, 161, 161, 0.8)"
-    }
-});
+import {useState, useEffect} from "react";
+import './Inbox.css';
 
 
 function Inbox() {
     const [query, setQuery] = useState("");
+    const [showSearch, setShowSearch] = useState(false)
     const [displayFilteredData, setDisplayFilteredData] = useState(Data);
 
-    // let filteredData = Data;
 
     useEffect(() => {
         console.log(query);
-         setDisplayFilteredData(Data.filter(student => (student.primary.toLowerCase()).includes(query.toLowerCase())));
+        setDisplayFilteredData(Data.filter(student => (student.primary.toLowerCase()).includes(query.toLowerCase())));
     }, [query]);
 
     return (
         <React.Fragment>
-            <CssBaseline />
+            <CssBaseline/>
             {/* Top */}
-            <AppBar position="sticky" color="primary" sx={{}}>
+            <AppBar position="sticky" color="primary"
+                    style={{backgroundImage: "linear-gradient(to bottom right, #0a77dd 10%, #a5cbea)",}}>
                 {/* above part */}
                 <Toolbar>
                     <IconButton color="inherit" aria-label="open drawer">
-                        <Avatar alt="Profile Picture" src={"/static/images/avatar/5.jpg"} />
+                        <Avatar style={{
+                            border: "2px solid white",
+                            marginLeft: "-20px",
+                        }}
+                                alt="Profile Picture"
+                                src={"/static/images/avatar/5.jpg"}/>
                     </IconButton>
-
-                    <StyledFab color="secondary" aria-label="add">
-                        <AddIcon />
-                    </StyledFab>
-
-                    <Box sx={{ flexGrow: 2}} />
-
-                    <IconButton color="inherit">
-                        <SearchIcon />
-                    </IconButton>
-
-                    <IconButton color="inherit">
-                        <MoreIcon />
+                    <Box sx={{flexGrow: 2}}/>
+                    <IconButton style={{marginRight: "-15px"}}
+                                color="inherit"
+                                onClick={() => setShowSearch(!showSearch)}
+                    >
+                        <SearchIcon/>
                     </IconButton>
                 </Toolbar>
             </AppBar>
             {/* Inbox*/}
-            <Paper square sx={{ pb: "30px" }}>
+            <Paper square sx={{pb: "30px"}}>
                 {/*title*/}
-                <Typography
+                {showSearch ? <Typography
                     variant="h5"
                     gutterBottom
                     component="div"
-                    sx={{ p: 2, pb: 0 }}
+                    sx={{p: 2, pb: 2}}
+                    style={{
+                        backgroundColor: "#FAFAFA",
+                        borderBottom: "1px solid #F1F1F1"
+                    }}
                 >
-                    {/*<SearchInput/>*/}
                     <InputBase
-                        sx={{ ml: 1, flex: 1 }}
+                        style={{color: "#848484"}}
+                        sx={{ml: 0, flex: 0}}
                         placeholder="Search..."
-                        inputProps={{ 'aria-label': 'search...' }}
+                        inputProps={{'aria-label': 'search...'}}
                         // onChange={event => handleChange(event)}
                         onChange={event => setQuery(event.target.value)}
                     />
-                </Typography>
+                </Typography> : null}
+                <div
+                    style={{
+                        padding: "10px",
+                        backgroundColor: "#FAFAFA",
+                        borderBottom: "1px solid #F1F1F1",
+                        borderTop: "1px solid #F1F1F1",
+                        color: "#848484",
+                        fontSize:"20px",
+                        display: "flex",
+                        alignItems: "center",
+                    }}>
+                    <TiMessages
+                        className="TiMsg"
+                        style={{
+                            fontSize: "60px",
+                            marginRight: "10px",
+                            borderRadius: "50%",
+                            padding:"15px",
+                            border: "2px solid #E6E6E6",
+                        }
+                        } onClick={()=>{}}/>
 
+                    Discover New Matches
+                </div>
                 <List sx={{mb: 2}}>
                     {
                         displayFilteredData.map(({id, primary, secondary, person}) =>
                             <PersonInboxItem id={id} primary={primary} secondary={secondary} person={person}/>)
                     }
-                        {/*filteredData.map(({id, primary,secondary,person}) => {*/}
-                        {/*    return <PersonInboxItem id={id} primary={primary} secondary={secondary} person={person}>*/}
-                        {/*    </PersonInboxItem>;*/}
-                        {/*})*/}
                 </List>
             </Paper>
         </React.Fragment>

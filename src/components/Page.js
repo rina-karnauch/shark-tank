@@ -14,7 +14,6 @@ function Page() {
                 <Route path="/q" element={<QComponent/>}/>
                 <Route path="/c" element={<Chat/>}/>
             </Routes>
-
         </React.Fragment>
     );
 }

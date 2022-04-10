@@ -8,8 +8,9 @@ import Stack from '@mui/material/Stack';
 export default function TimePicker() {
     return (
         <Grid container>
-        <div>
-            <Stack direction="row" spacing={1}>
+            <Stack direction="row"
+                   spacing={1}
+            >
                 <TimePickerHours dayName={"Time"}/>
                 <TimePickerDay dayName={"Sunday"}/>
                 <TimePickerDay dayName={"Monday"}/>
@@ -19,7 +20,7 @@ export default function TimePicker() {
                 <TimePickerDay dayName={"Friday"}/>
                 <TimePickerDay dayName={"Saturday"}/>
             </Stack>
-        </div>
-        </Grid>
-    );
+</Grid>
+)
+    ;
 }

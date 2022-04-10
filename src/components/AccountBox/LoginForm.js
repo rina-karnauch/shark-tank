@@ -1,10 +1,11 @@
 import React, {useContext, useState} from 'react';
 import {AccountContext} from "./AccountContext";
 import {BoxContainer, FormContainer, Input, MutedLink, SubmitButton, BoldLink} from './common'
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export function LoginForm() {
 
+    let navigate = useNavigate();
     const {SwitchToSignUp} = useContext(AccountContext);
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
@@ -47,7 +48,7 @@ export function LoginForm() {
                               () => {
                                   validateLogin();
                                   func();
-                                  window.location.assign("http://localhost:3000/c");
+                                  navigate("../c");
                               }
                           }
             >

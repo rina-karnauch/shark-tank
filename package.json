@@ -1,7 +1,7 @@
 {
   "name": "shark-tank",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://rina-karnauch.github.io/shark-tank/",
   "dependencies": {
     "@emotion/react": "^11.7.1",

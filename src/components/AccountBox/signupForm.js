@@ -1,4 +1,5 @@
 import React, {useContext, useState} from "react";
+import { useNavigate } from "react-router-dom";
 import {
     BoldLink,
     BoxContainer,
@@ -11,6 +12,8 @@ import {AccountContext} from "./AccountContext";
 import db from './server';
 
 export function SignupForm(props) {
+
+    let navigate = useNavigate();
 
     const {SwitchToSignIn} = useContext(AccountContext);
 
@@ -36,11 +39,6 @@ export function SignupForm(props) {
                 password: password
             });
         }
-        console.log("2");
-    }
-
-    function func(){
-        console.log("trying");
     }
 
     return (
@@ -71,8 +69,7 @@ export function SignupForm(props) {
                           onClick={
                               () => {
                                 validateSignup();
-                                func();
-                                window.location.assign("http://localhost:3000/q")
+                                  navigate("../q");
                               }
 
                           }

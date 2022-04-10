@@ -27,7 +27,11 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 
+import { useNavigate } from "react-router-dom";
+
 function QComponent() {
+
+    let navigate = useNavigate();
     const [arrayOfCourses, addCourse] = useState([]);
     const [courseName, setCourseName] = useState("");
 
@@ -57,7 +61,7 @@ function QComponent() {
                             marginLeft:"10px",
                             border:"1px solid white",
                             height:"110vh"}}
-                        onClick={() => {window.location.assign("http://localhost:3000/c");}}>
+                        onClick={() => {navigate("../c");}}>
                     ⏮
                     Next Page
                 </button>

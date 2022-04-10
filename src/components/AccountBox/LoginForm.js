@@ -48,7 +48,7 @@ export function LoginForm() {
                               () => {
                                   validateLogin();
                                   func();
-                                  navigate("../c");
+                                  navigate("../shark-tank/c");
                               }
                           }
             >

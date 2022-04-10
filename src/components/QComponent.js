@@ -61,7 +61,7 @@ function QComponent() {
                             marginLeft:"10px",
                             border:"1px solid white",
                             height:"110vh"}}
-                        onClick={() => {navigate("../c");}}>
+                        onClick={() => {navigate("../shark-tank/c");}}>
                     ⏮
                     Next Page
                 </button>

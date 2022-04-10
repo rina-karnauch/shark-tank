@@ -69,7 +69,7 @@ export function SignupForm(props) {
                           onClick={
                               () => {
                                 validateSignup();
-                                  navigate("../q");
+                                  navigate("../shark-tank/q");
                               }
 
                           }

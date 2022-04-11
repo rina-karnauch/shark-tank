@@ -1,19 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bowlby+One+SC&display=swap');
 
-.fading-images{
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: background 0.2s linear;
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bowlby+One+SC&family=Montserrat:wght@100&family=Permanent+Marker&display=swap');
+
+.h2-big {
+    margin: 10px 40px;
+    text-align: left;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: /* shadow, not border*/ -5px -3px 0px #000000,
+    -6px -2px 0px #000000,
+    -7px -1px 0px #000000,
+    -8px 0px 0px #000000,
+    -9px 1px 0px #000000,
+    -10px 2px 0px #000000,
+    -4px 3px 0px #000000,
+    -7px 3px 0px #000000,
+    -9px 3px 0px #000000,
+    -10px 3px 0px #000000,
+    -10px 3px 0px #000000,
+    -10px 7px 0px #000000,
+    -6px 7px 0px #000000,
+    -3px 7px 0px #000000,
+    -4px 7px 0px #000000,
+    -3px 6px 0px #000000,
+    -2px 6px 0px #000000,
+    -2px 6px 0px #000000,
+    -1px 5px 0px #000000,
+        /* border */ 2px 2px 0 #000000,
+    2px -2px 0 #000000,
+    -2px 2px 0 #000000,
+    -2px -2px 0 #000000,
+    2px 0px 0 #000000,
+    0px 3px 0 #000000,
+    -3px 0px 0 #000000,
+    0px -3px 0 #000000;
+    font-size: 60px;
+    letter-spacing: 10px;
+    font-family: "GT America", sans-serif;
+    z-index: 3;
 }
 
-.h2-big{
-    font-weight:900;
-    color:grey;
-    text-shadow: 4px 3px #fff, 7px 4px rgba(0,0,0,0.15);
-    font-size:58px;
-    width:450px;
-    letter-spacing:2px;
-    line-height:70px;
-    font-family:Impact, fantasy;
+.h1-big {
+    font-weight: normal;
+    text-align: left;
+    font-family: "GT America", sans-serif;
+    color: #000000;
+    font-size: 20px;
+    width: 30vw;
+    z-index: 2;
+    line-height: 33px;
+}
+
+.join-box {
+    height:10px;
+    color: white;
+    text-align: center;
+    border: 1px solid #96bee0;
+    background-color: #a5cbea;
+    padding: 7px 20px;
+    z-index: 3;
+}
+
+.borderHR {
+    height:10px;
+    margin-top: 10px;
+    border: 1px solid #96bee0;
+    background-color: #a5cbea;
+    z-index: 3;
+    padding: 7px 20px;
+    /*position: relative;*/
+    /*left: -50px;*/
+    /*top: -10px;*/
+}
+
+@media (max-width: 1200px) {
+    .students-image {
+        display: none;
+    }
 }

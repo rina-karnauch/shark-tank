@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc1a6e47-6a42-4023-9a63-ee7dda6d835c" name="Default Changelist" comment="change routes on Page routing">
+    <list default="true" id="bc1a6e47-6a42-4023-9a63-ee7dda6d835c" name="Default Changelist" comment="added /shark-tank/ to Link">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AccountBox/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccountBox/LoginForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AccountBox/signupForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccountBox/signupForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AccountBox/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccountBox/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/QComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/QComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SwipeButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwipeButtons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/students/students1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/students/students1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/students/students2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/students/students2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/students/students3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/students/students3.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +89,7 @@
       <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.deploy">
+  <component name="RunManager" selected="npm.npm start">
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -148,7 +154,8 @@
       <workItem from="1649602224733" duration="993000" />
       <workItem from="1649611380215" duration="5466000" />
       <workItem from="1649660381622" duration="1802000" />
-      <workItem from="1649664983178" duration="1132000" />
+      <workItem from="1649664983178" duration="2519000" />
+      <workItem from="1649692555440" duration="18747000" />
     </task>
     <task id="LOCAL-00001" summary="fixed eslint">
       <created>1644408172687</created>
@@ -297,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649665826176</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="added /shark-tank/ to Link">
+      <created>1649666462659</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1649666462659</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,7 +355,8 @@
     <MESSAGE value="trying to fix url for the 3rd time" />
     <MESSAGE value="trying to fix url for the 4rd time using Link from react-router-dom" />
     <MESSAGE value="change routes on Page routing" />
-    <option name="LAST_COMMIT_MESSAGE" value="change routes on Page routing" />
+    <MESSAGE value="added /shark-tank/ to Link" />
+    <option name="LAST_COMMIT_MESSAGE" value="added /shark-tank/ to Link" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

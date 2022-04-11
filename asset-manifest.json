@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/shark-tank/static/css/main.3f774fc5.css",
-    "main.js": "/shark-tank/static/js/main.ec5fa111.js",
+    "main.css": "/shark-tank/static/css/main.b309f10c.css",
+    "main.js": "/shark-tank/static/js/main.3acbc0cb.js",
     "static/js/787.1d89b7f6.chunk.js": "/shark-tank/static/js/787.1d89b7f6.chunk.js",
-    "static/media/students3.png": "/shark-tank/static/media/students3.e39cc35778b7dd78de93.png",
-    "static/media/students2.png": "/shark-tank/static/media/students2.c3a66d9435f6c1601279.png",
-    "static/media/students1.png": "/shark-tank/static/media/students1.b769fd99b75816cd4353.png",
     "static/media/Shimon_Schocken.png": "/shark-tank/static/media/Shimon_Schocken.420c97357ed8d6d5fd37.png",
+    "static/media/students1.png": "/shark-tank/static/media/students1.bc2d827474ac36e35b79.png",
     "static/media/noam.png": "/shark-tank/static/media/noam.f8eef8a9eab051a11c43.png",
+    "static/media/logo.png": "/shark-tank/static/media/logo.65c00959b7393de00703.png",
     "static/media/itamar_cwik.png": "/shark-tank/static/media/itamar_cwik.ac6f15a77466247b5f15.png",
     "index.html": "/shark-tank/index.html",
-    "main.3f774fc5.css.map": "/shark-tank/static/css/main.3f774fc5.css.map",
-    "main.ec5fa111.js.map": "/shark-tank/static/js/main.ec5fa111.js.map",
+    "main.b309f10c.css.map": "/shark-tank/static/css/main.b309f10c.css.map",
+    "main.3acbc0cb.js.map": "/shark-tank/static/js/main.3acbc0cb.js.map",
     "787.1d89b7f6.chunk.js.map": "/shark-tank/static/js/787.1d89b7f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f774fc5.css",
-    "static/js/main.ec5fa111.js"
+    "static/css/main.b309f10c.css",
+    "static/js/main.3acbc0cb.js"
   ]
 }

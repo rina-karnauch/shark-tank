@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc1a6e47-6a42-4023-9a63-ee7dda6d835c" name="Default Changelist" comment="forgot to upload Home.css">
+    <list default="true" id="bc1a6e47-6a42-4023-9a63-ee7dda6d835c" name="Default Changelist" comment="finally fixed the image by floating to the right">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SwipeButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwipeButtons.js" afterDir="false" />
     </list>
@@ -147,7 +148,7 @@
       <workItem from="1649611380215" duration="5466000" />
       <workItem from="1649660381622" duration="1802000" />
       <workItem from="1649664983178" duration="2519000" />
-      <workItem from="1649692555440" duration="21589000" />
+      <workItem from="1649692555440" duration="21734000" />
     </task>
     <task id="LOCAL-00001" summary="fixed eslint">
       <created>1644408172687</created>
@@ -331,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649714800899</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="finally fixed the image by floating to the right">
+      <created>1649715379940</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1649715379940</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +362,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added dummy sign up" />
     <MESSAGE value="changed some colors" />
     <MESSAGE value="login and signup ui is ready" />
     <MESSAGE value="fixed position of inputs" />
@@ -379,7 +386,8 @@
     <MESSAGE value="fixed pic i think" />
     <MESSAGE value="added logo pic" />
     <MESSAGE value="forgot to upload Home.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="forgot to upload Home.css" />
+    <MESSAGE value="finally fixed the image by floating to the right" />
+    <option name="LAST_COMMIT_MESSAGE" value="finally fixed the image by floating to the right" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

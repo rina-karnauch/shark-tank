@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shark-tank/static/css/main.b309f10c.css",
-    "main.js": "/shark-tank/static/js/main.3acbc0cb.js",
+    "main.css": "/shark-tank/static/css/main.ba12ebb4.css",
+    "main.js": "/shark-tank/static/js/main.df723f28.js",
     "static/js/787.1d89b7f6.chunk.js": "/shark-tank/static/js/787.1d89b7f6.chunk.js",
     "static/media/Shimon_Schocken.png": "/shark-tank/static/media/Shimon_Schocken.420c97357ed8d6d5fd37.png",
     "static/media/students1.png": "/shark-tank/static/media/students1.bc2d827474ac36e35b79.png",
@@ -9,12 +9,12 @@
     "static/media/logo.png": "/shark-tank/static/media/logo.65c00959b7393de00703.png",
     "static/media/itamar_cwik.png": "/shark-tank/static/media/itamar_cwik.ac6f15a77466247b5f15.png",
     "index.html": "/shark-tank/index.html",
-    "main.b309f10c.css.map": "/shark-tank/static/css/main.b309f10c.css.map",
-    "main.3acbc0cb.js.map": "/shark-tank/static/js/main.3acbc0cb.js.map",
+    "main.ba12ebb4.css.map": "/shark-tank/static/css/main.ba12ebb4.css.map",
+    "main.df723f28.js.map": "/shark-tank/static/js/main.df723f28.js.map",
     "787.1d89b7f6.chunk.js.map": "/shark-tank/static/js/787.1d89b7f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b309f10c.css",
-    "static/js/main.3acbc0cb.js"
+    "static/css/main.ba12ebb4.css",
+    "static/js/main.df723f28.js"
   ]
 }

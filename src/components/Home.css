@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bowlby+One+SC&family=Montserrat:wght@100&family=Permanent+Marker&display=swap');
 
 .h2-big {
-    margin: 10px 40px;
+    margin: 30px 40px;
     text-align: left;
     font-weight: 700;
     color: #ffffff;
@@ -52,7 +52,8 @@
 }
 
 .join-box {
-    height:10px;
+    margin-bottom: 10px;
+    height: 10px;
     color: white;
     text-align: center;
     border: 1px solid #96bee0;
@@ -62,7 +63,7 @@
 }
 
 .borderHR {
-    height:10px;
+    height: 10px;
     margin-top: 10px;
     border: 1px solid #96bee0;
     background-color: #a5cbea;
@@ -73,8 +74,33 @@
     /*top: -10px;*/
 }
 
+.h1-info {
+    font-weight: normal;
+    text-align: left;
+    font-family: "GT America", sans-serif;
+    color: #000000;
+    font-size: 20px;
+    width: 20vw;
+    z-index: 2;
+    line-height: 33px;
+}
+
 @media (max-width: 1200px) {
     .students-image {
         display: none;
+    }
+
+    .h1-big, .h1-info {
+        width: 100%;
+    }
+}
+
+@media (max-height: 700px) {
+    .students-image {
+        display: none;
+    }
+
+    .h1-big, .h1-info {
+        width: 100%;
     }
 }

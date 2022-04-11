@@ -2,36 +2,17 @@ import * as React from "react";
 import CourseForm from './CourseForm.js';
 import TimePicker from './TimePicker.js';
 
-import {useState} from "react";
-import Accordion from '@mui/material/Accordion';
-import AccordionDetails from '@mui/material/AccordionDetails';
-import AccordionSummary from '@mui/material/AccordionSummary';
-import Typography from '@mui/material/Typography';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import DeleteIcon from '@mui/icons-material/Delete';
 import AddCircleIcon from '@mui/icons-material/AddCircle';
-
 import IconButton from '@mui/material/IconButton';
-import {styled} from '@mui/material/styles';
-import RadioGroup, {useRadioGroup} from '@mui/material/RadioGroup';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import Radio from '@mui/material/Radio';
-
-import Chip from '@mui/material/Chip';
-import Stack from '@mui/material/Stack';
-
-import Checkbox from '@mui/material/Checkbox';
-
 import TextField from '@mui/material/TextField';
-import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 
-import { useNavigate } from "react-router-dom";
+import {useState} from "react";
+import {Link} from "react-router-dom";
 
 function QComponent() {
 
-    let navigate = useNavigate();
+
     const [arrayOfCourses, addCourse] = useState([]);
     const [courseName, setCourseName] = useState("");
 
@@ -55,18 +36,21 @@ function QComponent() {
     return (
         <Grid container spacing={2}>
             <Grid item xs={2}>
-                <button type="button"
-                        style={{width:"100px",
-                            background:"transparent",
-                            marginLeft:"10px",
-                            border:"1px solid white",
-                            height:"110vh"}}
-                        onClick={() => {navigate("../shark-tank/c");}}>
-                    ⏮
-                    Next Page
-                </button>
+                <Link to="/c">
+                    <button type="button"
+                            style={{
+                                width: "100px",
+                                background: "transparent",
+                                marginLeft: "10px",
+                                border: "1px solid white",
+                                height: "110vh"
+                            }}>
+                        ⏮
+                        Next Page
+                    </button>
+                </Link>
             </Grid>
-            <Grid item xs={4} style={{height: "110vh", padding:"50px"}}>
+            <Grid item xs={4} style={{height: "110vh", padding: "50px"}}>
                 <div>
                     {courses}
                     <TextField id="addExerciseField"
@@ -76,9 +60,9 @@ function QComponent() {
                                    setCourseName(event.target.value);
                                }}
                                value={courseName}
-                    style={{margin:"10px"}}/>
+                               style={{margin: "10px"}}/>
                     <IconButton aria-label="add"
-                                style={{marginTop:"20px"}}
+                                style={{marginTop: "20px"}}
                                 onClick={newCourse}>
                         <AddCircleIcon/>
                     </IconButton>
@@ -86,7 +70,7 @@ function QComponent() {
             </Grid>
             <Grid item xs={6} style={{height: "110vh"}} style={{
                 textAlign: "center",
-                marginTop:"50px",
+                marginTop: "50px",
             }}>
                 <TimePicker/>
             </Grid>

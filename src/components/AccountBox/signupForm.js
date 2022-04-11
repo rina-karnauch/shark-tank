@@ -1,5 +1,5 @@
 import React, {useContext, useState} from "react";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import {
     BoldLink,
     BoxContainer,
@@ -12,8 +12,6 @@ import {AccountContext} from "./AccountContext";
 import db from './server';
 
 export function SignupForm(props) {
-
-    let navigate = useNavigate();
 
     const {SwitchToSignIn} = useContext(AccountContext);
 
@@ -65,17 +63,17 @@ export function SignupForm(props) {
                        onChange={(e) => setPasswordConfirmation(e.target.value)}
                 />
             </FormContainer>
-            <SubmitButton type="submit"
-                          onClick={
-                              () => {
-                                validateSignup();
-                                  navigate("../shark-tank/q");
+            <Link to="/q">
+                <SubmitButton type="submit"
+                              onClick={
+                                  () => {
+                                      validateSignup();
+                                  }
                               }
-
-                          }
-            >
-                Signup
-            </SubmitButton>
+                >
+                    Signup
+                </SubmitButton>
+            </Link>
             {
                 // need to add what happens on signup, put account into database
                 // do all the checkins and then go to the next page

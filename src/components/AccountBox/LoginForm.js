@@ -1,11 +1,11 @@
 import React, {useContext, useState} from 'react';
 import {AccountContext} from "./AccountContext";
 import {BoxContainer, FormContainer, Input, MutedLink, SubmitButton, BoldLink} from './common'
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export function LoginForm() {
 
-    let navigate = useNavigate();
+
     const {SwitchToSignUp} = useContext(AccountContext);
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
@@ -19,11 +19,6 @@ export function LoginForm() {
             // check inside database
             // if not in data base put a message that we need to sign up
         }
-        console.log("1");
-    }
-
-    function func(){
-        console.log("trying");
     }
 
     return (
@@ -43,17 +38,17 @@ export function LoginForm() {
                 />
             </FormContainer>
             <MutedLink href="#">Forgot your password?</MutedLink>
-            <SubmitButton type="submit"
-                          onClick={
-                              () => {
-                                  validateLogin();
-                                  func();
-                                  navigate("../shark-tank/c");
+            <Link to="/c">
+                <SubmitButton type="submit"
+                              onClick={
+                                  () => {
+                                      validateLogin();
+                                  }
                               }
-                          }
-            >
-                Log In
-            </SubmitButton>
+                >
+                    Log In
+                </SubmitButton>
+            </Link>
             {
                 //
                 // need to add what happens on log in, check email and password in database

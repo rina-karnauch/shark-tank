@@ -1,8 +1,6 @@
 import * as React from "react";
-import PersonInboxItem from "./PersonInboxItem"
-import {TiMessages} from 'react-icons/ti';
+import PersonInboxItem from "./PersonInboxItem";
 import AppBar from "@mui/material/AppBar";
-import Box from "@mui/material/Box";
 import CssBaseline from "@mui/material/CssBaseline";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
@@ -19,7 +17,6 @@ import './Inbox.css';
 
 function Inbox() {
     const [query, setQuery] = useState("");
-    const [showSearch, setShowSearch] = useState(false)
     const [displayFilteredData, setDisplayFilteredData] = useState(Data);
 
 
@@ -30,10 +27,18 @@ function Inbox() {
 
     return (
         <React.Fragment>
-            <CssBaseline/>
             {/* Top */}
-            <AppBar position="sticky" color="primary"
-                    style={{backgroundImage: "linear-gradient(to bottom right, #0a77dd 10%, #a5cbea)",}}>
+            <CssBaseline/>
+            <AppBar
+                position="sticky"
+                color="primary"
+                style={{
+                    backgroundImage: "linear-gradient(to bottom right, #0a77dd 10%, #a5cbea)",
+                    boxShadow: "none",
+                    borderBottom: "1px solid rgb(240,240,240)",
+                    borderRight: "1px solid rgb(250,250,250)",
+                }}
+            >
                 {/* above part */}
                 <Toolbar>
                     <IconButton color="inherit" aria-label="open drawer">
@@ -44,61 +49,100 @@ function Inbox() {
                                 alt="Profile Picture"
                                 src={"/static/images/avatar/5.jpg"}/>
                     </IconButton>
-                    <Box sx={{flexGrow: 2}}/>
-                    <IconButton style={{marginRight: "-15px"}}
-                                color="inherit"
-                                onClick={() => setShowSearch(!showSearch)}
-                    >
-                        <SearchIcon/>
-                    </IconButton>
+                    {/*<Box sx={{flexGrow: 2}}/>*/}
+                    {/*<IconButton style={{marginRight: "-15px"}}*/}
+                    {/*            color="inherit"*/}
+                    {/*            onClick={() => setShowSearch(!showSearch)}*/}
+                    {/*>*/}
+                    {/*    <SearchIcon/>*/}
+                    {/*</IconButton>*/}
                 </Toolbar>
             </AppBar>
-            {/* Inbox*/}
-            <Paper square sx={{pb: "30px"}}>
-                {/*title*/}
-                {showSearch ? <Typography
+
+            {/* chat */}
+            <Paper square
+                   elevation={0}
+                   style={{
+                       borderRight: "1px solid rgb(240,240,240)",
+                       height: "100vh",
+                   }}>
+                {/*<div*/}
+                {/*    style={{*/}
+                {/*        padding: "10px",*/}
+                {/*        backgroundColor: "#FAFAFA",*/}
+                {/*        borderBottom: "1px solid #F1F1F1",*/}
+                {/*        borderTop: "1px solid #F1F1F1",*/}
+                {/*        color: "#848484",*/}
+                {/*        fontSize: "20px",*/}
+                {/*        display: "flex",*/}
+                {/*        alignItems: "center",*/}
+                {/*        justifyContent: "center",*/}
+                {/*    }}>*/}
+                {/*    <TiMessages*/}
+                {/*        className="TiMsg"*/}
+                {/*        style={{*/}
+                {/*            fontSize: "60px",*/}
+                {/*            marginRight: "10px",*/}
+                {/*            borderRadius: "50%",*/}
+                {/*            padding: "15px",*/}
+                {/*            border: "2px solid #E6E6E6",*/}
+                {/*        }*/}
+                {/*        } onClick={() => {*/}
+                {/*    }}/>*/}
+                {/*    Discover New Matches*/}
+                {/*</div>*/}
+                {/*search or just discovering*/}
+                {/*{showSearch ? <Typography*/}
+                {/*        variant="h5"*/}
+                {/*        gutterBottom*/}
+                {/*        component="div"*/}
+                {/*        sx={{p: 2, pb: 2}}*/}
+                {/*        style={{*/}
+                {/*            margin: 0,*/}
+                {/*            backgroundColor: "#FAFAFA",*/}
+                {/*            borderBottom: "1px solid #F1F1F1"*/}
+                {/*        }}*/}
+                {/*    >*/}
+                {/*        <InputBase*/}
+                {/*            style={{color: "#848484", padding: "8px",}}*/}
+                {/*            sx={{ml: 0, flex: 0}}*/}
+                {/*            placeholder="Search..."*/}
+                {/*            inputProps={{'aria-label': 'search...'}}*/}
+                {/*            // onChange={event => handleChange(event)}*/}
+                {/*            onChange={event => setQuery(event.target.value)}*/}
+                {/*        />*/}
+                {/*    </Typography> :*/}
+                {/*    null*/}
+                {/*}*/}
+                <Typography
                     variant="h5"
                     gutterBottom
                     component="div"
-                    sx={{p: 2, pb: 2}}
+                    sx={{p: 1, pb: 1}}
                     style={{
+                        margin: 0,
                         backgroundColor: "#FAFAFA",
                         borderBottom: "1px solid #F1F1F1"
                     }}
                 >
+                    <div style={{
+                        position: "relative",
+                        top: 5,
+                        color:"rgb(68,106,164)",
+                        float: "left",
+                    }}>
+                        <SearchIcon
+                        />
+                    </div>
                     <InputBase
-                        style={{color: "#848484"}}
+                        style={{color: "#848484", padding: "0px 8px",}}
                         sx={{ml: 0, flex: 0}}
                         placeholder="Search..."
                         inputProps={{'aria-label': 'search...'}}
                         // onChange={event => handleChange(event)}
                         onChange={event => setQuery(event.target.value)}
                     />
-                </Typography> : null}
-                <div
-                    style={{
-                        padding: "10px",
-                        backgroundColor: "#FAFAFA",
-                        borderBottom: "1px solid #F1F1F1",
-                        borderTop: "1px solid #F1F1F1",
-                        color: "#848484",
-                        fontSize:"20px",
-                        display: "flex",
-                        alignItems: "center",
-                    }}>
-                    <TiMessages
-                        className="TiMsg"
-                        style={{
-                            fontSize: "60px",
-                            marginRight: "10px",
-                            borderRadius: "50%",
-                            padding:"15px",
-                            border: "2px solid #E6E6E6",
-                        }
-                        } onClick={()=>{}}/>
-
-                    Discover New Matches
-                </div>
+                </Typography>
                 <List sx={{mb: 2}}>
                     {
                         displayFilteredData.map(({id, primary, secondary, person}) =>

@@ -69,67 +69,61 @@ function CourseForm(props) {
     ));
 
 
-
-
     const [checkedExercises, setCheckedExercises] = useState(false);
 
     return (
-        <div>
-            <Accordion>
-                <AccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel1a-content"
-                    id="panel1a-header"
-                >
-                    <Typography>{props.courseName}</Typography>
-                </AccordionSummary>
-                <AccordionDetails>
-                    <RadioGroup name="use-radio-group"  id="bdika" >
-                        <MyFormControlLabel value="all"
-                                            label="All exercises"
-                                            control={<Radio />}
-                                            onChange={()=>setCheckedExercises(false)}
-                                            />
-                        <MyFormControlLabel value="certain"
-                                            label="Certain exercises"
-                                            control={<Radio />}
-                                            onChange={()=>{setCheckedExercises(true)}}
-                                            />
-                        <Stack direction="row"
-                               spacing={1}
-                               id="exercisesPicker">
-                            { checkedExercises ? <div>
+        <Accordion>
+            <AccordionSummary
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls="panel1a-content"
+                id="panel1a-header"
+            >
+                <Typography>{props.courseName}</Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+                <RadioGroup name="use-radio-group"  id="bdika" >
+                    <MyFormControlLabel value="all"
+                                        label="All exercises"
+                                        control={<Radio />}
+                                        onChange={()=>setCheckedExercises(false)}
+                    />
+                    <MyFormControlLabel value="certain"
+                                        label="Certain exercises"
+                                        control={<Radio />}
+                                        onChange={()=>{setCheckedExercises(true)}}
+                    />
+                    <Stack direction="row"
+                           spacing={1}
+                           id="exercisesPicker">
+                        { checkedExercises ? <div>
 
-                                    <TextField id="addExerciseField" label="Standard" variant="standard"
-                                               onChange={(event) => {
-                                                setHashtag(event.target.value);
-                                               }}
-                                               value={hashtag}
-                                     />
+                                <TextField id="addExerciseField" label="Standard" variant="standard"
+                                           onChange={(event) => {
+                                               setHashtag(event.target.value);
+                                           }}
+                                           value={hashtag}
+                                />
 
-                                    <IconButton aria-label="add"  onClick={newExercise}>
-                                        <AddCircleIcon />
-                                    </IconButton>
+                                <IconButton aria-label="add"  onClick={newExercise}>
+                                    <AddCircleIcon />
+                                </IconButton>
                                 <Stack direction="row"
                                        spacing={2}
                                        id="exercisesPicker">
-                                        {Hashtags}
-                                    </Stack>
-                                    </div>
-                                    : null}
-                            </Stack>
-                    </RadioGroup>
-                    <FormControlLabel control={<Checkbox  />} label="campus" />
-                    <FormControlLabel control={<Checkbox  />} label="zoom" />
+                                    {Hashtags}
+                                </Stack>
+                            </div>
+                            : null}
+                    </Stack>
+                </RadioGroup>
+                <FormControlLabel control={<Checkbox  />} label="campus" />
+                <FormControlLabel control={<Checkbox  />} label="zoom" />
 
-                    <IconButton aria-label="delete">
-                        <DeleteIcon />
-                    </IconButton>
-                </AccordionDetails>
-            </Accordion>
-
-
-        </div>
+                <IconButton aria-label="delete" >
+                    <DeleteIcon />
+                </IconButton>
+            </AccordionDetails>
+        </Accordion>
     );
 }
 

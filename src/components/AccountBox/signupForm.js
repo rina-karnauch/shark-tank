@@ -63,7 +63,7 @@ export function SignupForm(props) {
                        onChange={(e) => setPasswordConfirmation(e.target.value)}
                 />
             </FormContainer>
-            <Link to="/q">
+            <Link to="/shark-tank/q">
                 <SubmitButton type="submit"
                               onClick={
                                   () => {

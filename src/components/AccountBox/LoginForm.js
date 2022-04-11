@@ -38,7 +38,7 @@ export function LoginForm() {
                 />
             </FormContainer>
             <MutedLink href="#">Forgot your password?</MutedLink>
-            <Link to="/c">
+            <Link to="/shark-tank/c">
                 <SubmitButton type="submit"
                               onClick={
                                   () => {

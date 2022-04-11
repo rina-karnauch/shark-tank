@@ -36,7 +36,7 @@ function QComponent() {
     return (
         <Grid container spacing={2}>
             <Grid item xs={2}>
-                <Link to="/c">
+                <Link to="/shark-tank/c">
                     <button type="button"
                             style={{
                                 width: "100px",

@@ -18,6 +18,13 @@ function Home() {
                         FIND THE <br/> BEST SHARK
                     </h2>
                 </Grid>
+                <img className="students-image"
+                     src={students1}
+                     alt="student-photo"
+                     style={{
+                         float:"right",
+                     }}
+                />
                 <Grid item xs={12}>
                     <div className="borderHR"/>
                 </Grid>
@@ -39,16 +46,6 @@ function Home() {
                         All Rights Reserved © 2022
                     </div>
                 </Grid>
-                <img className="students-image"
-                     src={students1}
-                     alt="student-photo"
-                     style={{
-                         position: "fixed",
-                         left: 700,
-                         bottom: 75,
-                         zIndex: "3",
-                     }}
-                />
             </Container>
             <Footer/>
         </React.Fragment>

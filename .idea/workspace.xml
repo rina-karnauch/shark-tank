@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc1a6e47-6a42-4023-9a63-ee7dda6d835c" name="Default Changelist" comment="fixed main page, mainly for responsive sizing">
+    <list default="true" id="bc1a6e47-6a42-4023-9a63-ee7dda6d835c" name="Default Changelist" comment="forgot to upload Home.css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SwipeButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwipeButtons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +147,7 @@
       <workItem from="1649611380215" duration="5466000" />
       <workItem from="1649660381622" duration="1802000" />
       <workItem from="1649664983178" duration="2519000" />
-      <workItem from="1649692555440" duration="20750000" />
+      <workItem from="1649692555440" duration="21589000" />
     </task>
     <task id="LOCAL-00001" summary="fixed eslint">
       <created>1644408172687</created>
@@ -316,7 +310,28 @@
       <option name="project" value="LOCAL" />
       <updated>1649712558303</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="fixed pic i think">
+      <created>1649714479394</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1649714479394</updated>
+    </task>
+    <task id="LOCAL-00025" summary="added logo pic">
+      <created>1649714493338</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1649714493338</updated>
+    </task>
+    <task id="LOCAL-00026" summary="forgot to upload Home.css">
+      <created>1649714800899</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1649714800899</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,7 +354,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed eslint" />
     <MESSAGE value="added dummy sign up" />
     <MESSAGE value="changed some colors" />
     <MESSAGE value="login and signup ui is ready" />
@@ -362,7 +376,10 @@
     <MESSAGE value="change routes on Page routing" />
     <MESSAGE value="added /shark-tank/ to Link" />
     <MESSAGE value="fixed main page, mainly for responsive sizing" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed main page, mainly for responsive sizing" />
+    <MESSAGE value="fixed pic i think" />
+    <MESSAGE value="added logo pic" />
+    <MESSAGE value="forgot to upload Home.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="forgot to upload Home.css" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

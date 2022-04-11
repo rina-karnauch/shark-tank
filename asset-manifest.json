@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shark-tank/static/css/main.f7e0e538.css",
-    "main.js": "/shark-tank/static/js/main.27aa801f.js",
+    "main.css": "/shark-tank/static/css/main.3f774fc5.css",
+    "main.js": "/shark-tank/static/js/main.826337e6.js",
     "static/js/787.1d89b7f6.chunk.js": "/shark-tank/static/js/787.1d89b7f6.chunk.js",
     "static/media/students3.png": "/shark-tank/static/media/students3.e39cc35778b7dd78de93.png",
     "static/media/students2.png": "/shark-tank/static/media/students2.c3a66d9435f6c1601279.png",
@@ -10,12 +10,12 @@
     "static/media/noam.png": "/shark-tank/static/media/noam.f8eef8a9eab051a11c43.png",
     "static/media/itamar_cwik.png": "/shark-tank/static/media/itamar_cwik.ac6f15a77466247b5f15.png",
     "index.html": "/shark-tank/index.html",
-    "main.f7e0e538.css.map": "/shark-tank/static/css/main.f7e0e538.css.map",
-    "main.27aa801f.js.map": "/shark-tank/static/js/main.27aa801f.js.map",
+    "main.3f774fc5.css.map": "/shark-tank/static/css/main.3f774fc5.css.map",
+    "main.826337e6.js.map": "/shark-tank/static/js/main.826337e6.js.map",
     "787.1d89b7f6.chunk.js.map": "/shark-tank/static/js/787.1d89b7f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7e0e538.css",
-    "static/js/main.27aa801f.js"
+    "static/css/main.3f774fc5.css",
+    "static/js/main.826337e6.js"
   ]
 }

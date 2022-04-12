@@ -42,7 +42,7 @@ function Home() {
                 </Grid>
                 <Grid item xs={12}>
                     <div className="h1-info">
-                        This site was created by Rina Karnauch, Ido Pinto, Yohai Shohet, I.B.D and Daniel Perretz with
+                        This site was created by Rina Karnauch, Ido Pinto, Yohai Shohet, Israel Ben David and Daniel Perretz with
                         the assistance of Eliran from Lightricks. We love you🧚🏻.
                         <br/>
                         All Rights Reserved © 2022

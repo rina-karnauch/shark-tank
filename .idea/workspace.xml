@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc1a6e47-6a42-4023-9a63-ee7dda6d835c" name="Default Changelist" comment="reverted cards to work on it later on">
+    <list default="true" id="bc1a6e47-6a42-4023-9a63-ee7dda6d835c" name="Default Changelist" comment="played a bit with the side card of chat page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LeftSideChat/Inbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftSideChat/Inbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LeftSideChat/mock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftSideChat/mock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
       <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.deploy">
+  <component name="RunManager" selected="npm.predeploy">
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -144,7 +144,8 @@
       <workItem from="1649611380215" duration="5466000" />
       <workItem from="1649660381622" duration="1802000" />
       <workItem from="1649664983178" duration="2519000" />
-      <workItem from="1649692555440" duration="24649000" />
+      <workItem from="1649692555440" duration="24690000" />
+      <workItem from="1649752359654" duration="777000" />
     </task>
     <task id="LOCAL-00001" summary="fixed eslint">
       <created>1644408172687</created>
@@ -349,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649716990991</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="played a bit with the side card of chat page">
+      <created>1649718774440</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1649718774440</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +380,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed position of inputs" />
     <MESSAGE value="fixed header" />
     <MESSAGE value="again changed some colors" />
     <MESSAGE value="added some check up functions and state for login and signup form" />
@@ -397,7 +404,8 @@
     <MESSAGE value="finally fixed the image by floating to the right" />
     <MESSAGE value="changed position of photo to be abit above" />
     <MESSAGE value="reverted cards to work on it later on" />
-    <option name="LAST_COMMIT_MESSAGE" value="reverted cards to work on it later on" />
+    <MESSAGE value="played a bit with the side card of chat page" />
+    <option name="LAST_COMMIT_MESSAGE" value="played a bit with the side card of chat page" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
